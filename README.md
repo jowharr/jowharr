@@ -18,7 +18,7 @@
 
 ```javascript
 const developer = {
-  name: "Jowhar,
+  name: "Jowhar",
   location: "Kozhikode, India",
   role: "Full Stack Developer",
   workingOn: "Building scalable web applications",
@@ -75,14 +75,6 @@ const developer = {
 
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=jowharr&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-</div>
-
-<br/>
-
-## 🏆 GitHub Trophies
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=jowharr&theme=tokyonight&no-frame=true&no-bg=false&margin-w=4&row=1" alt="GitHub Trophies"/>
 </div>
 
 <br/>
