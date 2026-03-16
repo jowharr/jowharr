@@ -69,11 +69,6 @@ const developer = {
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=jowharr&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" height="170"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jowharr&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="170"/>
-</div>
-
-<div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=jowharr&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </div>
 
@@ -83,14 +78,6 @@ const developer = {
 
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=jowharr&theme=tokyo-night&hide_border=true" alt="Activity Graph"/>
-</div>
-
-<br/>
-
-## 💡 Random Dev Quote
-
-<div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random Dev Quote"/>
 </div>
 
 <br/>
@@ -112,10 +99,4 @@ I'm always interested in collaborating on innovative projects and discussing new
 
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=yourusername&color=blueviolet&style=for-the-badge&label=Profile+Views" alt="Profile Views"/>
-</div>
-
-<div align="center">
-  
-  ### Show some ❤️ by starring some of the repositories!
-  
 </div>
