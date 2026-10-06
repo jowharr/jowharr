@@ -13,11 +13,6 @@
   <img src="./assets/terminal.svg" width="100%" alt="Animated ASCII portrait and terminal profile for Jowhar, a senior full-stack developer working remotely from Kerala, India. Web apps, ERP platforms, dashboards, mobile backends, and integrations. Contact: jowhar.dev@gmail.com.">
 </picture>
 
-<picture>
-  <source media="(max-width: 600px)" srcset="./assets/projects-mobile.svg">
-  <img src="./assets/projects.svg" width="100%" alt="Featured work: Yellow Self Storage — storage management, bookings, payments, and analytics. Insta Mess — meal subscriptions and supplier workflows. MediHold — healthcare marketplace and medicine ordering.">
-</picture>
-
 <p align="center">
   <a href="https://github.com/jowharr?tab=overview">
     <img src="https://streak-stats.demolab.com?user=jowharr&amp;background=0D1117&amp;border=263244&amp;stroke=263244&amp;ring=72E5D6&amp;fire=B9A0FF&amp;currStreakNum=E6EDF3&amp;sideNums=E6EDF3&amp;currStreakLabel=72E5D6&amp;sideLabels=91A3B7&amp;dates=91A3B7&amp;border_radius=16&amp;disable_animations=true" width="495" alt="Jowhar's total GitHub contributions, current daily streak, and longest streak.">

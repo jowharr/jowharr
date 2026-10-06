@@ -53,17 +53,16 @@ terminal places the same portrait above the profile text.
 
 ## Reference-aligned layout
 
-The centered glowing hero, compact floating technology badges, project rows,
+The centered glowing hero, compact floating technology badges,
 exploring pills, contact buttons, and footer follow the visual direction of
 [the reference repository](https://github.com/alan-thomas-shaji/alan-thomas-shaji).
 The portrait data and its top-to-bottom reveal are retained.
 
 The user explicitly selected the reference's six "Currently exploring" topics.
-They describe interests rather than proficiency. Featured project descriptions
-come from the user's prior portfolio brief.
+They describe interests rather than proficiency.
 
 Edit scripts/generate_focus.py to change those topics. The shared generator
-rebuilds both desktop and mobile focus cards, plus the project and contact assets.
+rebuilds both desktop and mobile focus cards, plus the contact assets.
 
 Current public contact: jowhar.dev@gmail.com.
 Current portfolio: https://portfolio-jowhar.vercel.app/.

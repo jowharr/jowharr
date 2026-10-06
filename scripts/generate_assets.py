@@ -3,7 +3,6 @@
 
 from html import escape
 from pathlib import Path
-import textwrap
 
 OUT = Path(__file__).resolve().parents[1] / "assets"
 MONO = "'SFMono-Regular', Consolas, 'Liberation Mono', monospace"
@@ -151,33 +150,6 @@ def terminal(mobile=False):
     return canvas(width, height, "Jowhar's terminal profile", "An animated terminal with an ASCII portrait of Jowhar derived from his photo and a top-to-bottom introduction, toolkit, work, and contact details. The complete profile stays visible after the reveal.", body)
 
 
-PROJECTS = (
-    ("Yellow Self Storage", "Storage management, bookings, payments and analytics across admin, worker and mobile workflows.", "Node.js · Express · MongoDB · Next.js · Redis", "#00e5ff"),
-    ("Insta Mess", "Meal subscriptions, supplier dashboards, food management and backend APIs.", "Supplier workflows · Subscriptions · Backend APIs", "#a88bfa"),
-    ("MediHold", "Healthcare marketplace with prescription uploads, medicine ordering and admin workflows.", "Healthcare workflows · Backend APIs · Dashboards", "#e989b8"),
-)
-
-
-def projects(mobile=False):
-    width, height = (480, 646) if mobile else (960, 448)
-    padding, top, card_height = (24, 78, 174) if mobile else (32, 82, 104)
-    body = f'<ellipse class="ambient" cx="120" cy="{height-20}" rx="300" ry="220" fill="url(#cyanGlow)"/>'
-    body += f'<ellipse class="ambient-alt" cx="{width-100}" cy="60" rx="280" ry="200" fill="url(#violetGlow)"/>'
-    body += text(width/2, 44, "FEATURED WORK", 12, "#8cb9c9", 'text-anchor="middle" letter-spacing="5"')
-    for index, (title, description, stack, color) in enumerate(PROJECTS):
-        y = top + index*(card_height+12)
-        content = f'<rect x="{padding}" y="{y}" width="{width-2*padding}" height="{card_height}" rx="12" fill="#ffffff" fill-opacity=".025" stroke="{color}" stroke-opacity=".16"/>'
-        content += f'<circle cx="{padding+22}" cy="{y+28}" r="4" fill="{color}"/>'
-        content += text(padding+39, y+34, title, 20 if mobile else 19, "#ffffff", 'font-weight="600"', mono=False)
-        desc_lines = textwrap.wrap(description, width=42 if mobile else 110)
-        for line_index, line in enumerate(desc_lines):
-            content += text(padding+22, y+62+line_index*23, line, 17 if mobile else 15, "#a3a7bd", mono=False)
-        for line_index, line in enumerate(textwrap.wrap(stack, width=43 if mobile else 100)):
-            content += text(padding+22, y+card_height-30+line_index*19 if mobile else y+86, line, 14 if mobile else 13, color)
-        body += reveal(content, .12 + index*.15)
-    return canvas(width, height, "Jowhar's featured work", "Yellow Self Storage, Insta Mess and MediHold: storage management, meal subscriptions and healthcare marketplace systems.", body)
-
-
 def social_button(name, glyph, color):
     width, height = 140, 44
     body = f'<rect x=".5" y=".5" width="139" height="43" rx="11" fill="#0a0a12" stroke="{color}" stroke-opacity=".5"/>'
@@ -204,7 +176,6 @@ def main():
     for name, content in {
         "hero.svg": hero(), "hero-mobile.svg": hero(True),
         "terminal.svg": terminal(), "terminal-mobile.svg": terminal(True),
-        "projects.svg": projects(), "projects-mobile.svg": projects(True),
         "link-github.svg": social_button("GitHub", "⌘", "#00e5ff"),
         "link-linkedin.svg": social_button("LinkedIn", "in", "#7ab8f1"),
         "link-portfolio.svg": social_button("Portfolio", "↗", "#ad8df5"),
