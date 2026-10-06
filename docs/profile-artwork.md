@@ -50,3 +50,33 @@ To update it from another photo, decode a temporary BMP with macOS sips, then ru
 scripts/photo_to_ascii.py with the BMP path and an appropriate --crop rectangle
 (left, top, width, height). Run scripts/generate_assets.py afterward. The mobile
 terminal places the same portrait above the profile text.
+
+## Reference-aligned layout
+
+The centered glowing hero, compact floating technology badges, project rows,
+exploring pills, contact buttons, and footer follow the visual direction of
+[the reference repository](https://github.com/alan-thomas-shaji/alan-thomas-shaji).
+The portrait data and its top-to-bottom reveal are retained.
+
+The user explicitly selected the reference's six "Currently exploring" topics.
+They describe interests rather than proficiency. Featured project descriptions
+come from the user's prior portfolio brief.
+
+Edit scripts/generate_focus.py to change those topics. The shared generator
+rebuilds both desktop and mobile focus cards, plus the project and contact assets.
+
+Current public contact: jowhar.dev@gmail.com.
+Current portfolio: https://portfolio-jowhar.vercel.app/.
+
+## GitHub activity
+
+The streak image is supplied by
+[GitHub Readme Streak Stats](https://github.com/DenverCoder1/github-readme-streak-stats).
+It displays total contributions, the current daily streak, and the longest
+streak. It uses the public jowharr profile; no token is included in the README.
+The hosted service and GitHub's image cache determine refresh timing, so updates
+are not instantaneous. The adjacent contribution-history link goes to GitHub.
+
+This remote statistics card is separate from the self-contained local artwork.
+The originally considered activity-graph endpoint returned HTTP 402 during
+verification, so it is not embedded.

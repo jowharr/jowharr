@@ -1,32 +1,49 @@
 <picture>
   <source media="(max-width: 600px)" srcset="./assets/hero-mobile.svg">
-  <img src="./assets/hero.svg" width="100%" alt="Jowhar — Senior Full-Stack Developer. Web applications, backend systems, and APIs.">
+  <img src="./assets/hero.svg" width="100%" alt="Jowhar — Full Stack Engineer. Web applications, backend systems, and product engineering. Kerala, India.">
 </picture>
-
-<p align="center">
-  <a href="https://portfolio-one-henna-56.vercel.app/">Portfolio</a> &nbsp; / &nbsp;
-  <a href="https://linkedin.com/in/jowharr">LinkedIn</a> &nbsp; / &nbsp;
-  <a href="mailto:mohdalijowhar@gmail.com">Email</a>
-</p>
-
-<picture>
-  <source media="(max-width: 600px)" srcset="./assets/terminal-mobile.svg">
-  <img src="./assets/terminal.svg" width="100%" alt="Animated ASCII portrait and terminal profile for Jowhar, a senior full-stack developer in Kerala, India, working across React, Next.js, Node.js, Express, databases, APIs, and infrastructure.">
-</picture>
-
-### A little about me
-
-I'm **Jowhar**, a senior full-stack developer working remotely from **Kerala, India**. I build web applications, backend systems, APIs, and dashboards, with experience across ERP platforms and mobile application backends.
-
-I enjoy connecting the whole system: the interface, business logic, authentication, data, and deployment.
 
 <picture>
   <source media="(max-width: 600px)" srcset="./assets/toolkit-mobile.svg">
-  <img src="./assets/toolkit.svg" width="100%" alt="My toolkit: JavaScript, TypeScript, HTML, CSS, React, Next.js, Redux, Tailwind CSS, Bootstrap, Node.js, Express, REST APIs, JWT, API integrations, MongoDB, PostgreSQL, MariaDB, Redis, Mongoose, Prisma, Drizzle, Docker, NGINX, CI/CD, DNS, SSL, Git, Postman, VS Code, Vercel, Heroku, and GitHub.">
+  <img src="./assets/toolkit.svg" width="100%" alt="Tech stack: JavaScript, TypeScript, HTML, CSS, React, Next.js, Redux, Tailwind CSS, Bootstrap, Node.js, Express, REST APIs, JWT, API integrations, MongoDB, PostgreSQL, MariaDB, Redis, Mongoose, Prisma, Drizzle, Docker, NGINX, CI/CD, DNS, SSL, Git, Postman, VS Code, Vercel, Heroku, and GitHub.">
 </picture>
 
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/terminal-mobile.svg">
+  <img src="./assets/terminal.svg" width="100%" alt="Animated ASCII portrait and terminal profile for Jowhar, a senior full-stack developer working remotely from Kerala, India. Web apps, ERP platforms, dashboards, mobile backends, and integrations. Contact: jowhar.dev@gmail.com.">
+</picture>
+
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/projects-mobile.svg">
+  <img src="./assets/projects.svg" width="100%" alt="Featured work: Yellow Self Storage — storage management, bookings, payments, and analytics. Insta Mess — meal subscriptions and supplier workflows. MediHold — healthcare marketplace and medicine ordering.">
+</picture>
+
+<p align="center">
+  <a href="https://github.com/jowharr?tab=overview">
+    <img src="https://streak-stats.demolab.com?user=jowharr&amp;background=0D1117&amp;border=263244&amp;stroke=263244&amp;ring=72E5D6&amp;fire=B9A0FF&amp;currStreakNum=E6EDF3&amp;sideNums=E6EDF3&amp;currStreakLabel=72E5D6&amp;sideLabels=91A3B7&amp;dates=91A3B7&amp;border_radius=16&amp;disable_animations=true" width="495" alt="Jowhar's total GitHub contributions, current daily streak, and longest streak.">
+  </a>
+</p>
+
+<p align="center"><a href="https://github.com/jowharr?tab=overview">View my contribution history →</a></p>
+
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/focus-mobile.svg">
+  <img src="./assets/focus.svg" width="100%" alt="Currently exploring: AI-Assisted Engineering, Scalable Frontend Architecture, Distributed Systems Visualization, Modern UI Engineering, Real-time Observability, and LLM Integrations &amp; Tooling.">
+</picture>
+
+<p align="center">
+  <a href="https://github.com/jowharr"><img src="./assets/link-github.svg" width="140" height="44" alt="GitHub"></a>
+  <a href="https://linkedin.com/in/jowharr"><img src="./assets/link-linkedin.svg" width="140" height="44" alt="LinkedIn"></a>
+  <a href="https://portfolio-jowhar.vercel.app/"><img src="./assets/link-portfolio.svg" width="140" height="44" alt="Portfolio"></a>
+  <a href="mailto:jowhar.dev@gmail.com"><img src="./assets/link-email.svg" width="140" height="44" alt="Email Jowhar"></a>
+</p>
+
+<p align="center"><a href="mailto:jowhar.dev@gmail.com">jowhar.dev@gmail.com</a></p>
+
 <details>
-<summary>View the toolkit as text</summary>
+<summary>About me &amp; toolkit — text version</summary>
+
+I'm **Jowhar**, a senior full-stack developer working remotely from **Kerala, India**. I build web applications, backend systems, APIs, and dashboards, with experience across ERP platforms and mobile application backends.
 
 | Area | Tools & technologies |
 | :--- | :--- |
@@ -37,16 +54,13 @@ I enjoy connecting the whole system: the interface, business logic, authenticati
 | Infrastructure | Docker, NGINX, CI/CD, DNS, SSL, Git |
 | Workspace & platforms | Postman, VS Code, Vercel, Heroku, GitHub |
 
+**Currently exploring:** AI-Assisted Engineering · Scalable Frontend Architecture · Distributed Systems Visualization · Modern UI Engineering · Real-time Observability · LLM Integrations & Tooling.
+
+[Portfolio](https://portfolio-jowhar.vercel.app/) · [LinkedIn](https://linkedin.com/in/jowharr) · [Email](mailto:jowhar.dev@gmail.com)
+
 </details>
 
-### Currently exploring
-
-**Python · Django · Django REST Framework · Kubernetes · Cloud infrastructure · System architecture**
-
-Always learning, with a focus on building reliable systems and keeping complexity manageable.
-
-### Let's build something
-
-Have a product idea, a backend to build, or an interesting engineering problem? [Start a conversation →](mailto:mohdalijowhar@gmail.com)
-
-<p align="center"><sub>Built with curiosity, code, and a lot of debugging.</sub></p>
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/footer-mobile.svg">
+  <img src="./assets/footer.svg" width="100%" alt="Jowhar — built with curiosity.">
+</picture>

@@ -43,58 +43,42 @@ def label(x, y, content, size=16, color="#dce6f3", extra=""):
 
 
 def render(mobile=False):
-    width, padding, columns = (480, 24, 1) if mobile else (960, 36, 2)
-    gap, inset = (14, 22) if mobile else (18, 24)
-    font_size = 18 if mobile else 17
-    chip_height, row_gap = 37, 10
-    card_width = (width - padding * 2 - gap * (columns - 1)) // columns
-    prepared = [(name, chip_rows(tools, card_width - inset * 2, font_size)) for name, tools in GROUPS]
-    heights = [82 + len(rows) * chip_height + (len(rows) - 1) * row_gap + 23 for _, rows in prepared]
-    if not mobile:
-        for index in range(0, len(heights), 2):
-            heights[index] = heights[index + 1] = max(heights[index:index + 2])
-    grid_top = 166 if mobile else 176
-    height = grid_top + sum(heights[::columns]) + gap * (len(heights) // columns - 1) + padding
+    width, padding = (480, 26) if mobile else (960, 52)
+    font_size, chip_height = (18, 42) if mobile else (16, 42)
+    # Float the same verified toolkit as compact chips, matching the reference.
+    tools = [tool for _, group in GROUPS for tool in group]
+    rows = chip_rows(tools, width - 2*padding, font_size)
+    top, gap = 88, 12
+    height = top + len(rows)*(chip_height+gap) - gap + 42
+    description = "Jowhar's toolkit: " + ", ".join(name for name, _ in tools) + "."
     parts = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-labelledby="title desc">',
-        '<title id="title">Jowhar — Tools of the trade</title>',
-        '<desc id="desc">From the interface to the infrastructure. Languages: JavaScript, TypeScript, HTML, CSS. Frontend: React, Next.js, Redux, Tailwind CSS, Bootstrap. Backend: Node.js, Express, REST APIs, JWT, API integrations. Data: MongoDB, PostgreSQL, MariaDB, Redis, Mongoose, Prisma, Drizzle. Infrastructure: Docker, NGINX, CI/CD, DNS, SSL, Git. Workspace: Postman, VS Code, Vercel, Heroku, GitHub.</desc>',
-        '<style>text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}.mono{font-family:ui-monospace,SFMono-Regular,Consolas,"Liberation Mono",monospace}@media(prefers-reduced-motion:no-preference){.card{animation:reveal .55s cubic-bezier(.2,.7,.2,1) both}@keyframes reveal{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}}</style>',
-        f'<rect x=".5" y=".5" width="{width - 1}" height="{height - 1}" rx="20" fill="#0d1117" stroke="#263244"/>',
-        f'<circle cx="{padding + 4}" cy="{padding + 8}" r="4" fill="#72e5d6"/>',
-        label(padding + 18, padding + 12, "01 / TOOLKIT", 12 if mobile else 13, "#72e5d6", 'class="mono" letter-spacing="2"'),
-        label(padding, padding + 58, "Tools of the trade.", 32 if mobile else 38, "#f0f5fb", 'font-weight="650" letter-spacing="-.8"'),
-        label(padding, padding + 89, "From the interface to the infrastructure.", 17, "#9baabe"),
-        f'<path d="M{padding} {grid_top - 22}H{width - padding}" stroke="#263244"/>',
+        '<title id="title">Jowhar — Tech stack</title>',
+        f'<desc id="desc">{escape(description)}</desc>',
+        '<defs><radialGradient id="violet"><stop stop-color="#8b5cf6" stop-opacity=".21"/><stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/></radialGradient><radialGradient id="cyan"><stop stop-color="#00e5ff" stop-opacity=".14"/><stop offset="1" stop-color="#00e5ff" stop-opacity="0"/></radialGradient><clipPath id="bounds"><rect x="1" y="1" width="'+str(width-2)+'" height="'+str(height-2)+'" rx="20"/></clipPath></defs>',
+        '<style>text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}.chip{opacity:1}@media(prefers-reduced-motion:no-preference){.chip{animation:reveal .35s ease-out both}.ambient{animation:drift 11s ease-in-out infinite alternate}@keyframes reveal{from{opacity:0}to{opacity:1}}@keyframes drift{from{transform:translate(0,0)}to{transform:translate(15px,-10px)}}}</style>',
+        f'<rect x=".5" y=".5" width="{width-1}" height="{height-1}" rx="20" fill="#06060a" stroke="#202036"/>',
+        '<g clip-path="url(#bounds)">',
+        f'<ellipse class="ambient" cx="130" cy="{height-40}" rx="320" ry="250" fill="url(#violet)"/><ellipse class="ambient" cx="{width-100}" cy="55" rx="300" ry="220" fill="url(#cyan)"/>',
+        label(width/2, 48, "TECH STACK", 12, "#b1a0d4", 'text-anchor="middle" letter-spacing="5"'),
     ]
-    y = grid_top
-    for index, (name, rows) in enumerate(prepared):
-        x = padding + (index % columns) * (card_width + gap)
-        card_height = heights[index]
-        accent = "#72e5d6" if index % 2 == 0 else "#b9a0ff"
-        parts.extend([
-            f'<g class="card" style="animation-delay:{index * 90}ms">',
-            f'<rect x="{x}" y="{y}" width="{card_width}" height="{card_height}" rx="13" fill="#141b26" stroke="#263244"/>',
-            label(x + inset, y + 36, f"{index + 1:02d}", 12, accent, 'class="mono"'),
-            label(x + inset + 31, y + 38, name, 20, "#edf3fb", 'font-weight="600"'),
-            f'<path d="M{x + inset} {y + 57}H{x + card_width - inset}" stroke="#263244"/>',
-        ])
-        chip_y = y + 82
-        for row in rows:
-            chip_x = x + inset
-            for name, color, chip_width in row:
-                parts.extend([
-                    f'<rect x="{chip_x}" y="{chip_y}" width="{chip_width}" height="{chip_height}" rx="8" fill="#1b2534" stroke="#2b3a4d"/>',
-                    f'<circle cx="{chip_x + 14}" cy="{chip_y + chip_height / 2}" r="3" fill="{color}"/>',
-                    label(chip_x + 26, chip_y + 24, name, font_size, "#dce6f3"),
-                ])
-                chip_x += chip_width + 9
-            chip_y += chip_height + row_gap
-        parts.append('</g>')
-        if index % columns == columns - 1:
-            y += card_height + gap
-    parts.append('</svg>')
-    return "\n".join(parts) + "\n", width, height
+    index = 0
+    for row_index, row in enumerate(rows):
+        row_width = sum(item[2] for item in row) + 9*(len(row)-1)
+        x, y = (width-row_width)/2, top+row_index*(chip_height+gap)
+        for name, color, chip_width in row:
+            parts.extend([
+                f'<g class="chip" style="animation-delay:{index*22}ms">',
+                f'<rect x="{x}" y="{y}" width="{chip_width}" height="{chip_height}" rx="11" fill="{color}" fill-opacity=".055" stroke="{color}" stroke-opacity=".22"/>',
+                f'<circle cx="{x+14}" cy="{y+chip_height/2}" r="7" fill="{color}" opacity=".08"/>',
+                f'<circle cx="{x+14}" cy="{y+chip_height/2}" r="3.5" fill="{color}"/>',
+                label(x+26, y+27, name, font_size, "#d5d7e6"),
+                '</g>',
+            ])
+            index += 1
+            x += chip_width+9
+    parts.extend(['</g>', '</svg>'])
+    return "\n".join(parts)+"\n", width, height
 
 
 def main():

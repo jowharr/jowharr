@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="140" height="44" viewBox="0 0 140 44" role="img" aria-labelledby="title desc">
+  <title id="title">GitHub</title>
+  <desc id="desc">Connect with Jowhar on GitHub.</desc>
+  <defs>
+    <radialGradient id="cyanGlow"><stop stop-color="#00b8d4" stop-opacity=".23"/><stop offset="1" stop-color="#06060a" stop-opacity="0"/></radialGradient>
+    <radialGradient id="violetGlow"><stop stop-color="#8b5cf6" stop-opacity=".24"/><stop offset="1" stop-color="#06060a" stop-opacity="0"/></radialGradient>
+    <linearGradient id="edge"><stop stop-color="#72e5d6"/><stop offset=".5" stop-color="#b9a0ff"/><stop offset="1" stop-color="#263244"/></linearGradient>
+    <clipPath id="card"><rect x="1" y="1" width="138" height="42" rx="18"/></clipPath>
+  </defs>
+  <style>
+    .reveal { opacity: 1; }
+    @keyframes reveal { from { opacity: 0; } to { opacity: 1; } }
+    @media (prefers-reduced-motion: no-preference) {
+      .reveal { animation: reveal .22s ease-out both; }
+      .ambient { animation: drift 10s ease-in-out infinite alternate; }
+      .ambient-alt { animation: drift 12s ease-in-out infinite alternate-reverse; }
+      @keyframes drift { from { transform: translate(0, 0); } to { transform: translate(15px, -10px); } }
+    }
+  </style>
+  <rect x=".5" y=".5" width="139" height="43" rx="18" fill="#06060a" stroke="#202036"/>
+  <g clip-path="url(#card)"><rect x=".5" y=".5" width="139" height="43" rx="11" fill="#0a0a12" stroke="#00e5ff" stroke-opacity=".5"/><g transform="translate(12 13) scale(.75)" fill="#00e5ff"><path d="M12 .5C5.86.5.5 5.86.5 12c0 5.25 3.4 9.7 8.12 11.28.6.11.82-.26.82-.58 0-.28-.02-1.23-.02-2.23-3.02.56-3.83-.74-4.08-1.4-.14-.35-.73-1.41-1.25-1.69-.43-.23-1.04-.8-.01-.81.96-.02 1.65.88 1.88 1.26 1.1 1.85 2.85 1.33 3.54 1.01.11-.79.42-1.34.76-1.64-2.66-.31-5.45-1.33-5.45-5.92 0-1.31.47-2.38 1.24-3.22-.12-.31-.54-1.54.12-3.2 0 0 1.01-.32 3.3 1.23.96-.27 1.99-.4 3.01-.4s2.05.14 3.02.4c2.28-1.55 3.29-1.23 3.29-1.23.66 1.66.24 2.89.12 3.2.77.84 1.23 1.91 1.23 3.22 0 4.61-2.8 5.62-5.48 5.92.43.37.81 1.1.81 2.22 0 1.6-.02 2.89-.02 3.29 0 .32.22.69.83.57A11.5 11.5 0 0 0 23.5 12C23.5 5.86 18.14.5 12 .5Z"/></g><text x="43" y="28" fill="#c9d0e7" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" font-size="14" >GitHub</text></g>
+</svg>

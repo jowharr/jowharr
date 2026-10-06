@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="140" height="44" viewBox="0 0 140 44" role="img" aria-labelledby="title desc">
+  <title id="title">Email</title>
+  <desc id="desc">Connect with Jowhar on Email.</desc>
+  <defs>
+    <radialGradient id="cyanGlow"><stop stop-color="#00b8d4" stop-opacity=".23"/><stop offset="1" stop-color="#06060a" stop-opacity="0"/></radialGradient>
+    <radialGradient id="violetGlow"><stop stop-color="#8b5cf6" stop-opacity=".24"/><stop offset="1" stop-color="#06060a" stop-opacity="0"/></radialGradient>
+    <linearGradient id="edge"><stop stop-color="#72e5d6"/><stop offset=".5" stop-color="#b9a0ff"/><stop offset="1" stop-color="#263244"/></linearGradient>
+    <clipPath id="card"><rect x="1" y="1" width="138" height="42" rx="18"/></clipPath>
+  </defs>
+  <style>
+    .reveal { opacity: 1; }
+    @keyframes reveal { from { opacity: 0; } to { opacity: 1; } }
+    @media (prefers-reduced-motion: no-preference) {
+      .reveal { animation: reveal .22s ease-out both; }
+      .ambient { animation: drift 10s ease-in-out infinite alternate; }
+      .ambient-alt { animation: drift 12s ease-in-out infinite alternate-reverse; }
+      @keyframes drift { from { transform: translate(0, 0); } to { transform: translate(15px, -10px); } }
+    }
+  </style>
+  <rect x=".5" y=".5" width="139" height="43" rx="18" fill="#06060a" stroke="#202036"/>
+  <g clip-path="url(#card)"><rect x=".5" y=".5" width="139" height="43" rx="11" fill="#0a0a12" stroke="#ef91b3" stroke-opacity=".5"/><text x="21" y="28" fill="#ef91b3" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="17" text-anchor="middle" font-weight="600">@</text><text x="43" y="28" fill="#c9d0e7" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" font-size="14" >Email</text></g>
+</svg>

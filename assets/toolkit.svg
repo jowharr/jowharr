@@ -1,143 +1,203 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="862" viewBox="0 0 960 862" role="img" aria-labelledby="title desc">
-<title id="title">Jowhar — Tools of the trade</title>
-<desc id="desc">From the interface to the infrastructure. Languages: JavaScript, TypeScript, HTML, CSS. Frontend: React, Next.js, Redux, Tailwind CSS, Bootstrap. Backend: Node.js, Express, REST APIs, JWT, API integrations. Data: MongoDB, PostgreSQL, MariaDB, Redis, Mongoose, Prisma, Drizzle. Infrastructure: Docker, NGINX, CI/CD, DNS, SSL, Git. Workspace: Postman, VS Code, Vercel, Heroku, GitHub.</desc>
-<style>text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}.mono{font-family:ui-monospace,SFMono-Regular,Consolas,"Liberation Mono",monospace}@media(prefers-reduced-motion:no-preference){.card{animation:reveal .55s cubic-bezier(.2,.7,.2,1) both}@keyframes reveal{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}}</style>
-<rect x=".5" y=".5" width="959" height="861" rx="20" fill="#0d1117" stroke="#263244"/>
-<circle cx="40" cy="44" r="4" fill="#72e5d6"/>
-<text x="54" y="48" font-size="13" fill="#72e5d6" class="mono" letter-spacing="2">01 / TOOLKIT</text>
-<text x="36" y="94" font-size="38" fill="#f0f5fb" font-weight="650" letter-spacing="-.8">Tools of the trade.</text>
-<text x="36" y="125" font-size="17" fill="#9baabe" >From the interface to the infrastructure.</text>
-<path d="M36 154H924" stroke="#263244"/>
-<g class="card" style="animation-delay:0ms">
-<rect x="36" y="176" width="435" height="189" rx="13" fill="#141b26" stroke="#263244"/>
-<text x="60" y="212" font-size="12" fill="#72e5d6" class="mono">01</text>
-<text x="91" y="214" font-size="20" fill="#edf3fb" font-weight="600">Languages</text>
-<path d="M60 233H447" stroke="#263244"/>
-<rect x="60" y="258" width="134" height="37" rx="8" fill="#1b2534" stroke="#2b3a4d"/>
-<circle cx="74" cy="276.5" r="3" fill="#f2d76d"/>
-<text x="86" y="282" font-size="17" fill="#dce6f3" >JavaScript</text>
-<rect x="203" y="258" width="134" height="37" rx="8" fill="#1b2534" stroke="#2b3a4d"/>
-<circle cx="217" cy="276.5" r="3" fill="#7fbbff"/>
-<text x="229" y="282" font-size="17" fill="#dce6f3" >TypeScript</text>
-<rect x="346" y="258" width="86" height="37" rx="8" fill="#1b2534" stroke="#2b3a4d"/>
-<circle cx="360" cy="276.5" r="3" fill="#ffac86"/>
-<text x="372" y="282" font-size="17" fill="#dce6f3" >HTML</text>
-<rect x="60" y="305" width="72" height="37" rx="8" fill="#1b2534" stroke="#2b3a4d"/>
-<circle cx="74" cy="323.5" r="3" fill="#aca4ff"/>
-<text x="86" y="329" font-size="17" fill="#dce6f3" >CSS</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="388" viewBox="0 0 960 388" role="img" aria-labelledby="title desc">
+<title id="title">Jowhar — Tech stack</title>
+<desc id="desc">Jowhar's toolkit: JavaScript, TypeScript, HTML, CSS, React, Next.js, Redux, Tailwind CSS, Bootstrap, Node.js, Express, REST APIs, JWT, API integrations, MongoDB, PostgreSQL, MariaDB, Redis, Mongoose, Prisma, Drizzle, Docker, NGINX, CI/CD, DNS, SSL, Git, Postman, VS Code, Vercel, Heroku, GitHub.</desc>
+<defs><radialGradient id="violet"><stop stop-color="#8b5cf6" stop-opacity=".21"/><stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/></radialGradient><radialGradient id="cyan"><stop stop-color="#00e5ff" stop-opacity=".14"/><stop offset="1" stop-color="#00e5ff" stop-opacity="0"/></radialGradient><clipPath id="bounds"><rect x="1" y="1" width="958" height="386" rx="20"/></clipPath></defs>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}.chip{opacity:1}@media(prefers-reduced-motion:no-preference){.chip{animation:reveal .35s ease-out both}.ambient{animation:drift 11s ease-in-out infinite alternate}@keyframes reveal{from{opacity:0}to{opacity:1}}@keyframes drift{from{transform:translate(0,0)}to{transform:translate(15px,-10px)}}}</style>
+<rect x=".5" y=".5" width="959" height="387" rx="20" fill="#06060a" stroke="#202036"/>
+<g clip-path="url(#bounds)">
+<ellipse class="ambient" cx="130" cy="348" rx="320" ry="250" fill="url(#violet)"/><ellipse class="ambient" cx="860" cy="55" rx="300" ry="220" fill="url(#cyan)"/>
+<text x="480.0" y="48" font-size="12" fill="#b1a0d4" text-anchor="middle" letter-spacing="5">TECH STACK</text>
+<g class="chip" style="animation-delay:0ms">
+<rect x="116.0" y="88" width="128" height="42" rx="11" fill="#f2d76d" fill-opacity=".055" stroke="#f2d76d" stroke-opacity=".22"/>
+<circle cx="130.0" cy="109.0" r="7" fill="#f2d76d" opacity=".08"/>
+<circle cx="130.0" cy="109.0" r="3.5" fill="#f2d76d"/>
+<text x="142.0" y="115" font-size="16" fill="#d5d7e6" >JavaScript</text>
 </g>
-<g class="card" style="animation-delay:90ms">
-<rect x="489" y="176" width="435" height="189" rx="13" fill="#141b26" stroke="#263244"/>
-<text x="513" y="212" font-size="12" fill="#b9a0ff" class="mono">02</text>
-<text x="544" y="214" font-size="20" fill="#edf3fb" font-weight="600">Frontend</text>
-<path d="M513 233H900" stroke="#263244"/>
-<rect x="513" y="258" width="88" height="37" rx="8" fill="#1b2534" stroke="#2b3a4d"/>
-<circle cx="527" cy="276.5" r="3" fill="#79daf3"/>
-<text x="539" y="282" font-size="17" fill="#dce6f3" >React</text>
-<rect x="610" y="258" width="99" height="37" rx="8" fill="#1b2534" stroke="#2b3a4d"/>
-<circle cx="624" cy="276.5" r="3" fill="#e7edf5"/>
-<text x="636" y="282" font-size="17" fill="#dce6f3" >Next.js</text>
-<rect x="718" y="258" width="88" height="37" rx="8" fill="#1b2534" stroke="#2b3a4d"/>
-<circle cx="732" cy="276.5" r="3" fill="#bd9fff"/>
-<text x="744" y="282" font-size="17" fill="#dce6f3" >Redux</text>
-<rect x="513" y="305" width="143" height="37" rx="8" fill="#1b2534" stroke="#2b3a4d"/>
-<circle cx="527" cy="323.5" r="3" fill="#72e5d6"/>
-<text x="539" y="329" font-size="17" fill="#dce6f3" >Tailwind CSS</text>
-<rect x="665" y="305" width="127" height="37" rx="8" fill="#1b2534" stroke="#2b3a4d"/>
-<circle cx="679" cy="323.5" r="3" fill="#b9a0ff"/>
-<text x="691" y="329" font-size="17" fill="#dce6f3" >Bootstrap</text>
+<g class="chip" style="animation-delay:22ms">
+<rect x="253.0" y="88" width="128" height="42" rx="11" fill="#7fbbff" fill-opacity=".055" stroke="#7fbbff" stroke-opacity=".22"/>
+<circle cx="267.0" cy="109.0" r="7" fill="#7fbbff" opacity=".08"/>
+<circle cx="267.0" cy="109.0" r="3.5" fill="#7fbbff"/>
+<text x="279.0" y="115" font-size="16" fill="#d5d7e6" >TypeScript</text>
 </g>
-<g class="card" style="animation-delay:180ms">
-<rect x="36" y="383" width="435" height="236" rx="13" fill="#141b26" stroke="#263244"/>
-<text x="60" y="419" font-size="12" fill="#72e5d6" class="mono">03</text>
-<text x="91" y="421" font-size="20" fill="#edf3fb" font-weight="600">Backend</text>
-<path d="M60 440H447" stroke="#263244"/>
-<rect x="60" y="465" width="99" height="37" rx="8" fill="#1b2534" stroke="#2b3a4d"/>
-<circle cx="74" cy="483.5" r="3" fill="#a0d990"/>
-<text x="86" y="489" font-size="17" fill="#dce6f3" >Node.js</text>
-<rect x="168" y="465" width="107" height="37" rx="8" fill="#1b2534" stroke="#2b3a4d"/>
-<circle cx="182" cy="483.5" r="3" fill="#d3dae6"/>
-<text x="194" y="489" font-size="17" fill="#dce6f3" >Express</text>
-<rect x="284" y="465" width="126" height="37" rx="8" fill="#1b2534" stroke="#2b3a4d"/>
-<circle cx="298" cy="483.5" r="3" fill="#72e5d6"/>
-<text x="310" y="489" font-size="17" fill="#dce6f3" >REST APIs</text>
-<rect x="60" y="512" width="75" height="37" rx="8" fill="#1b2534" stroke="#2b3a4d"/>
-<circle cx="74" cy="530.5" r="3" fill="#efa1ca"/>
-<text x="86" y="536" font-size="17" fill="#dce6f3" >JWT</text>
-<rect x="144" y="512" width="178" height="37" rx="8" fill="#1b2534" stroke="#2b3a4d"/>
-<circle cx="158" cy="530.5" r="3" fill="#a8b8ff"/>
-<text x="170" y="536" font-size="17" fill="#dce6f3" >API integrations</text>
+<g class="chip" style="animation-delay:44ms">
+<rect x="390.0" y="88" width="83" height="42" rx="11" fill="#ffac86" fill-opacity=".055" stroke="#ffac86" stroke-opacity=".22"/>
+<circle cx="404.0" cy="109.0" r="7" fill="#ffac86" opacity=".08"/>
+<circle cx="404.0" cy="109.0" r="3.5" fill="#ffac86"/>
+<text x="416.0" y="115" font-size="16" fill="#d5d7e6" >HTML</text>
 </g>
-<g class="card" style="animation-delay:270ms">
-<rect x="489" y="383" width="435" height="236" rx="13" fill="#141b26" stroke="#263244"/>
-<text x="513" y="419" font-size="12" fill="#b9a0ff" class="mono">04</text>
-<text x="544" y="421" font-size="20" fill="#edf3fb" font-weight="600">Data</text>
-<path d="M513 440H900" stroke="#263244"/>
-<rect x="513" y="465" width="114" height="37" rx="8" fill="#1b2534" stroke="#2b3a4d"/>
-<circle cx="527" cy="483.5" r="3" fill="#a0d990"/>
-<text x="539" y="489" font-size="17" fill="#dce6f3" >MongoDB</text>
-<rect x="636" y="465" width="141" height="37" rx="8" fill="#1b2534" stroke="#2b3a4d"/>
-<circle cx="650" cy="483.5" r="3" fill="#88bde8"/>
-<text x="662" y="489" font-size="17" fill="#dce6f3" >PostgreSQL</text>
-<rect x="786" y="465" width="109" height="37" rx="8" fill="#1b2534" stroke="#2b3a4d"/>
-<circle cx="800" cy="483.5" r="3" fill="#e7c39c"/>
-<text x="812" y="489" font-size="17" fill="#dce6f3" >MariaDB</text>
-<rect x="513" y="512" width="84" height="37" rx="8" fill="#1b2534" stroke="#2b3a4d"/>
-<circle cx="527" cy="530.5" r="3" fill="#f3939c"/>
-<text x="539" y="536" font-size="17" fill="#dce6f3" >Redis</text>
-<rect x="606" y="512" width="120" height="37" rx="8" fill="#1b2534" stroke="#2b3a4d"/>
-<circle cx="620" cy="530.5" r="3" fill="#d9a0a5"/>
-<text x="632" y="536" font-size="17" fill="#dce6f3" >Mongoose</text>
-<rect x="735" y="512" width="93" height="37" rx="8" fill="#1b2534" stroke="#2b3a4d"/>
-<circle cx="749" cy="530.5" r="3" fill="#b9a0ff"/>
-<text x="761" y="536" font-size="17" fill="#dce6f3" >Prisma</text>
-<rect x="513" y="559" width="99" height="37" rx="8" fill="#1b2534" stroke="#2b3a4d"/>
-<circle cx="527" cy="577.5" r="3" fill="#c6e992"/>
-<text x="539" y="583" font-size="17" fill="#dce6f3" >Drizzle</text>
+<g class="chip" style="animation-delay:66ms">
+<rect x="482.0" y="88" width="70" height="42" rx="11" fill="#aca4ff" fill-opacity=".055" stroke="#aca4ff" stroke-opacity=".22"/>
+<circle cx="496.0" cy="109.0" r="7" fill="#aca4ff" opacity=".08"/>
+<circle cx="496.0" cy="109.0" r="3.5" fill="#aca4ff"/>
+<text x="508.0" y="115" font-size="16" fill="#d5d7e6" >CSS</text>
 </g>
-<g class="card" style="animation-delay:360ms">
-<rect x="36" y="637" width="435" height="189" rx="13" fill="#141b26" stroke="#263244"/>
-<text x="60" y="673" font-size="12" fill="#72e5d6" class="mono">05</text>
-<text x="91" y="675" font-size="20" fill="#edf3fb" font-weight="600">Infrastructure</text>
-<path d="M60 694H447" stroke="#263244"/>
-<rect x="60" y="719" width="98" height="37" rx="8" fill="#1b2534" stroke="#2b3a4d"/>
-<circle cx="74" cy="737.5" r="3" fill="#7fbbff"/>
-<text x="86" y="743" font-size="17" fill="#dce6f3" >Docker</text>
-<rect x="167" y="719" width="88" height="37" rx="8" fill="#1b2534" stroke="#2b3a4d"/>
-<circle cx="181" cy="737.5" r="3" fill="#a0d990"/>
-<text x="193" y="743" font-size="17" fill="#dce6f3" >NGINX</text>
-<rect x="264" y="719" width="87" height="37" rx="8" fill="#1b2534" stroke="#2b3a4d"/>
-<circle cx="278" cy="737.5" r="3" fill="#72e5d6"/>
-<text x="290" y="743" font-size="17" fill="#dce6f3" >CI/CD</text>
-<rect x="360" y="719" width="72" height="37" rx="8" fill="#1b2534" stroke="#2b3a4d"/>
-<circle cx="374" cy="737.5" r="3" fill="#b9a0ff"/>
-<text x="386" y="743" font-size="17" fill="#dce6f3" >DNS</text>
-<rect x="60" y="766" width="72" height="37" rx="8" fill="#1b2534" stroke="#2b3a4d"/>
-<circle cx="74" cy="784.5" r="3" fill="#e8cd92"/>
-<text x="86" y="790" font-size="17" fill="#dce6f3" >SSL</text>
-<rect x="141" y="766" width="64" height="37" rx="8" fill="#1b2534" stroke="#2b3a4d"/>
-<circle cx="155" cy="784.5" r="3" fill="#ffac86"/>
-<text x="167" y="790" font-size="17" fill="#dce6f3" >Git</text>
+<g class="chip" style="animation-delay:88ms">
+<rect x="561.0" y="88" width="85" height="42" rx="11" fill="#79daf3" fill-opacity=".055" stroke="#79daf3" stroke-opacity=".22"/>
+<circle cx="575.0" cy="109.0" r="7" fill="#79daf3" opacity=".08"/>
+<circle cx="575.0" cy="109.0" r="3.5" fill="#79daf3"/>
+<text x="587.0" y="115" font-size="16" fill="#d5d7e6" >React</text>
 </g>
-<g class="card" style="animation-delay:450ms">
-<rect x="489" y="637" width="435" height="189" rx="13" fill="#141b26" stroke="#263244"/>
-<text x="513" y="673" font-size="12" fill="#b9a0ff" class="mono">06</text>
-<text x="544" y="675" font-size="20" fill="#edf3fb" font-weight="600">Workspace</text>
-<path d="M513 694H900" stroke="#263244"/>
-<rect x="513" y="719" width="107" height="37" rx="8" fill="#1b2534" stroke="#2b3a4d"/>
-<circle cx="527" cy="737.5" r="3" fill="#ffac86"/>
-<text x="539" y="743" font-size="17" fill="#dce6f3" >Postman</text>
-<rect x="629" y="719" width="106" height="37" rx="8" fill="#1b2534" stroke="#2b3a4d"/>
-<circle cx="643" cy="737.5" r="3" fill="#7fbbff"/>
-<text x="655" y="743" font-size="17" fill="#dce6f3" >VS Code</text>
-<rect x="744" y="719" width="93" height="37" rx="8" fill="#1b2534" stroke="#2b3a4d"/>
-<circle cx="758" cy="737.5" r="3" fill="#e7edf5"/>
-<text x="770" y="743" font-size="17" fill="#dce6f3" >Vercel</text>
-<rect x="513" y="766" width="98" height="37" rx="8" fill="#1b2534" stroke="#2b3a4d"/>
-<circle cx="527" cy="784.5" r="3" fill="#b9a0ff"/>
-<text x="539" y="790" font-size="17" fill="#dce6f3" >Heroku</text>
-<rect x="620" y="766" width="95" height="37" rx="8" fill="#1b2534" stroke="#2b3a4d"/>
-<circle cx="634" cy="784.5" r="3" fill="#d3dae6"/>
-<text x="646" y="790" font-size="17" fill="#dce6f3" >GitHub</text>
+<g class="chip" style="animation-delay:110ms">
+<rect x="655.0" y="88" width="95" height="42" rx="11" fill="#e7edf5" fill-opacity=".055" stroke="#e7edf5" stroke-opacity=".22"/>
+<circle cx="669.0" cy="109.0" r="7" fill="#e7edf5" opacity=".08"/>
+<circle cx="669.0" cy="109.0" r="3.5" fill="#e7edf5"/>
+<text x="681.0" y="115" font-size="16" fill="#d5d7e6" >Next.js</text>
+</g>
+<g class="chip" style="animation-delay:132ms">
+<rect x="759.0" y="88" width="85" height="42" rx="11" fill="#bd9fff" fill-opacity=".055" stroke="#bd9fff" stroke-opacity=".22"/>
+<circle cx="773.0" cy="109.0" r="7" fill="#bd9fff" opacity=".08"/>
+<circle cx="773.0" cy="109.0" r="3.5" fill="#bd9fff"/>
+<text x="785.0" y="115" font-size="16" fill="#d5d7e6" >Redux</text>
+</g>
+<g class="chip" style="animation-delay:154ms">
+<rect x="132.5" y="142" width="137" height="42" rx="11" fill="#72e5d6" fill-opacity=".055" stroke="#72e5d6" stroke-opacity=".22"/>
+<circle cx="146.5" cy="163.0" r="7" fill="#72e5d6" opacity=".08"/>
+<circle cx="146.5" cy="163.0" r="3.5" fill="#72e5d6"/>
+<text x="158.5" y="169" font-size="16" fill="#d5d7e6" >Tailwind CSS</text>
+</g>
+<g class="chip" style="animation-delay:176ms">
+<rect x="278.5" y="142" width="122" height="42" rx="11" fill="#b9a0ff" fill-opacity=".055" stroke="#b9a0ff" stroke-opacity=".22"/>
+<circle cx="292.5" cy="163.0" r="7" fill="#b9a0ff" opacity=".08"/>
+<circle cx="292.5" cy="163.0" r="3.5" fill="#b9a0ff"/>
+<text x="304.5" y="169" font-size="16" fill="#d5d7e6" >Bootstrap</text>
+</g>
+<g class="chip" style="animation-delay:198ms">
+<rect x="409.5" y="142" width="95" height="42" rx="11" fill="#a0d990" fill-opacity=".055" stroke="#a0d990" stroke-opacity=".22"/>
+<circle cx="423.5" cy="163.0" r="7" fill="#a0d990" opacity=".08"/>
+<circle cx="423.5" cy="163.0" r="3.5" fill="#a0d990"/>
+<text x="435.5" y="169" font-size="16" fill="#d5d7e6" >Node.js</text>
+</g>
+<g class="chip" style="animation-delay:220ms">
+<rect x="513.5" y="142" width="103" height="42" rx="11" fill="#d3dae6" fill-opacity=".055" stroke="#d3dae6" stroke-opacity=".22"/>
+<circle cx="527.5" cy="163.0" r="7" fill="#d3dae6" opacity=".08"/>
+<circle cx="527.5" cy="163.0" r="3.5" fill="#d3dae6"/>
+<text x="539.5" y="169" font-size="16" fill="#d5d7e6" >Express</text>
+</g>
+<g class="chip" style="animation-delay:242ms">
+<rect x="625.5" y="142" width="120" height="42" rx="11" fill="#72e5d6" fill-opacity=".055" stroke="#72e5d6" stroke-opacity=".22"/>
+<circle cx="639.5" cy="163.0" r="7" fill="#72e5d6" opacity=".08"/>
+<circle cx="639.5" cy="163.0" r="3.5" fill="#72e5d6"/>
+<text x="651.5" y="169" font-size="16" fill="#d5d7e6" >REST APIs</text>
+</g>
+<g class="chip" style="animation-delay:264ms">
+<rect x="754.5" y="142" width="73" height="42" rx="11" fill="#efa1ca" fill-opacity=".055" stroke="#efa1ca" stroke-opacity=".22"/>
+<circle cx="768.5" cy="163.0" r="7" fill="#efa1ca" opacity=".08"/>
+<circle cx="768.5" cy="163.0" r="3.5" fill="#efa1ca"/>
+<text x="780.5" y="169" font-size="16" fill="#d5d7e6" >JWT</text>
+</g>
+<g class="chip" style="animation-delay:286ms">
+<rect x="99.5" y="196" width="170" height="42" rx="11" fill="#a8b8ff" fill-opacity=".055" stroke="#a8b8ff" stroke-opacity=".22"/>
+<circle cx="113.5" cy="217.0" r="7" fill="#a8b8ff" opacity=".08"/>
+<circle cx="113.5" cy="217.0" r="3.5" fill="#a8b8ff"/>
+<text x="125.5" y="223" font-size="16" fill="#d5d7e6" >API integrations</text>
+</g>
+<g class="chip" style="animation-delay:308ms">
+<rect x="278.5" y="196" width="109" height="42" rx="11" fill="#a0d990" fill-opacity=".055" stroke="#a0d990" stroke-opacity=".22"/>
+<circle cx="292.5" cy="217.0" r="7" fill="#a0d990" opacity=".08"/>
+<circle cx="292.5" cy="217.0" r="3.5" fill="#a0d990"/>
+<text x="304.5" y="223" font-size="16" fill="#d5d7e6" >MongoDB</text>
+</g>
+<g class="chip" style="animation-delay:330ms">
+<rect x="396.5" y="196" width="135" height="42" rx="11" fill="#88bde8" fill-opacity=".055" stroke="#88bde8" stroke-opacity=".22"/>
+<circle cx="410.5" cy="217.0" r="7" fill="#88bde8" opacity=".08"/>
+<circle cx="410.5" cy="217.0" r="3.5" fill="#88bde8"/>
+<text x="422.5" y="223" font-size="16" fill="#d5d7e6" >PostgreSQL</text>
+</g>
+<g class="chip" style="animation-delay:352ms">
+<rect x="540.5" y="196" width="105" height="42" rx="11" fill="#e7c39c" fill-opacity=".055" stroke="#e7c39c" stroke-opacity=".22"/>
+<circle cx="554.5" cy="217.0" r="7" fill="#e7c39c" opacity=".08"/>
+<circle cx="554.5" cy="217.0" r="3.5" fill="#e7c39c"/>
+<text x="566.5" y="223" font-size="16" fill="#d5d7e6" >MariaDB</text>
+</g>
+<g class="chip" style="animation-delay:374ms">
+<rect x="654.5" y="196" width="81" height="42" rx="11" fill="#f3939c" fill-opacity=".055" stroke="#f3939c" stroke-opacity=".22"/>
+<circle cx="668.5" cy="217.0" r="7" fill="#f3939c" opacity=".08"/>
+<circle cx="668.5" cy="217.0" r="3.5" fill="#f3939c"/>
+<text x="680.5" y="223" font-size="16" fill="#d5d7e6" >Redis</text>
+</g>
+<g class="chip" style="animation-delay:396ms">
+<rect x="744.5" y="196" width="116" height="42" rx="11" fill="#d9a0a5" fill-opacity=".055" stroke="#d9a0a5" stroke-opacity=".22"/>
+<circle cx="758.5" cy="217.0" r="7" fill="#d9a0a5" opacity=".08"/>
+<circle cx="758.5" cy="217.0" r="3.5" fill="#d9a0a5"/>
+<text x="770.5" y="223" font-size="16" fill="#d5d7e6" >Mongoose</text>
+</g>
+<g class="chip" style="animation-delay:418ms">
+<rect x="67.0" y="250" width="90" height="42" rx="11" fill="#b9a0ff" fill-opacity=".055" stroke="#b9a0ff" stroke-opacity=".22"/>
+<circle cx="81.0" cy="271.0" r="7" fill="#b9a0ff" opacity=".08"/>
+<circle cx="81.0" cy="271.0" r="3.5" fill="#b9a0ff"/>
+<text x="93.0" y="277" font-size="16" fill="#d5d7e6" >Prisma</text>
+</g>
+<g class="chip" style="animation-delay:440ms">
+<rect x="166.0" y="250" width="95" height="42" rx="11" fill="#c6e992" fill-opacity=".055" stroke="#c6e992" stroke-opacity=".22"/>
+<circle cx="180.0" cy="271.0" r="7" fill="#c6e992" opacity=".08"/>
+<circle cx="180.0" cy="271.0" r="3.5" fill="#c6e992"/>
+<text x="192.0" y="277" font-size="16" fill="#d5d7e6" >Drizzle</text>
+</g>
+<g class="chip" style="animation-delay:462ms">
+<rect x="270.0" y="250" width="94" height="42" rx="11" fill="#7fbbff" fill-opacity=".055" stroke="#7fbbff" stroke-opacity=".22"/>
+<circle cx="284.0" cy="271.0" r="7" fill="#7fbbff" opacity=".08"/>
+<circle cx="284.0" cy="271.0" r="3.5" fill="#7fbbff"/>
+<text x="296.0" y="277" font-size="16" fill="#d5d7e6" >Docker</text>
+</g>
+<g class="chip" style="animation-delay:484ms">
+<rect x="373.0" y="250" width="85" height="42" rx="11" fill="#a0d990" fill-opacity=".055" stroke="#a0d990" stroke-opacity=".22"/>
+<circle cx="387.0" cy="271.0" r="7" fill="#a0d990" opacity=".08"/>
+<circle cx="387.0" cy="271.0" r="3.5" fill="#a0d990"/>
+<text x="399.0" y="277" font-size="16" fill="#d5d7e6" >NGINX</text>
+</g>
+<g class="chip" style="animation-delay:506ms">
+<rect x="467.0" y="250" width="84" height="42" rx="11" fill="#72e5d6" fill-opacity=".055" stroke="#72e5d6" stroke-opacity=".22"/>
+<circle cx="481.0" cy="271.0" r="7" fill="#72e5d6" opacity=".08"/>
+<circle cx="481.0" cy="271.0" r="3.5" fill="#72e5d6"/>
+<text x="493.0" y="277" font-size="16" fill="#d5d7e6" >CI/CD</text>
+</g>
+<g class="chip" style="animation-delay:528ms">
+<rect x="560.0" y="250" width="70" height="42" rx="11" fill="#b9a0ff" fill-opacity=".055" stroke="#b9a0ff" stroke-opacity=".22"/>
+<circle cx="574.0" cy="271.0" r="7" fill="#b9a0ff" opacity=".08"/>
+<circle cx="574.0" cy="271.0" r="3.5" fill="#b9a0ff"/>
+<text x="586.0" y="277" font-size="16" fill="#d5d7e6" >DNS</text>
+</g>
+<g class="chip" style="animation-delay:550ms">
+<rect x="639.0" y="250" width="70" height="42" rx="11" fill="#e8cd92" fill-opacity=".055" stroke="#e8cd92" stroke-opacity=".22"/>
+<circle cx="653.0" cy="271.0" r="7" fill="#e8cd92" opacity=".08"/>
+<circle cx="653.0" cy="271.0" r="3.5" fill="#e8cd92"/>
+<text x="665.0" y="277" font-size="16" fill="#d5d7e6" >SSL</text>
+</g>
+<g class="chip" style="animation-delay:572ms">
+<rect x="718.0" y="250" width="63" height="42" rx="11" fill="#ffac86" fill-opacity=".055" stroke="#ffac86" stroke-opacity=".22"/>
+<circle cx="732.0" cy="271.0" r="7" fill="#ffac86" opacity=".08"/>
+<circle cx="732.0" cy="271.0" r="3.5" fill="#ffac86"/>
+<text x="744.0" y="277" font-size="16" fill="#d5d7e6" >Git</text>
+</g>
+<g class="chip" style="animation-delay:594ms">
+<rect x="790.0" y="250" width="103" height="42" rx="11" fill="#ffac86" fill-opacity=".055" stroke="#ffac86" stroke-opacity=".22"/>
+<circle cx="804.0" cy="271.0" r="7" fill="#ffac86" opacity=".08"/>
+<circle cx="804.0" cy="271.0" r="3.5" fill="#ffac86"/>
+<text x="816.0" y="277" font-size="16" fill="#d5d7e6" >Postman</text>
+</g>
+<g class="chip" style="animation-delay:616ms">
+<rect x="278.0" y="304" width="102" height="42" rx="11" fill="#7fbbff" fill-opacity=".055" stroke="#7fbbff" stroke-opacity=".22"/>
+<circle cx="292.0" cy="325.0" r="7" fill="#7fbbff" opacity=".08"/>
+<circle cx="292.0" cy="325.0" r="3.5" fill="#7fbbff"/>
+<text x="304.0" y="331" font-size="16" fill="#d5d7e6" >VS Code</text>
+</g>
+<g class="chip" style="animation-delay:638ms">
+<rect x="389.0" y="304" width="90" height="42" rx="11" fill="#e7edf5" fill-opacity=".055" stroke="#e7edf5" stroke-opacity=".22"/>
+<circle cx="403.0" cy="325.0" r="7" fill="#e7edf5" opacity=".08"/>
+<circle cx="403.0" cy="325.0" r="3.5" fill="#e7edf5"/>
+<text x="415.0" y="331" font-size="16" fill="#d5d7e6" >Vercel</text>
+</g>
+<g class="chip" style="animation-delay:660ms">
+<rect x="488.0" y="304" width="94" height="42" rx="11" fill="#b9a0ff" fill-opacity=".055" stroke="#b9a0ff" stroke-opacity=".22"/>
+<circle cx="502.0" cy="325.0" r="7" fill="#b9a0ff" opacity=".08"/>
+<circle cx="502.0" cy="325.0" r="3.5" fill="#b9a0ff"/>
+<text x="514.0" y="331" font-size="16" fill="#d5d7e6" >Heroku</text>
+</g>
+<g class="chip" style="animation-delay:682ms">
+<rect x="591.0" y="304" width="91" height="42" rx="11" fill="#d3dae6" fill-opacity=".055" stroke="#d3dae6" stroke-opacity=".22"/>
+<circle cx="605.0" cy="325.0" r="7" fill="#d3dae6" opacity=".08"/>
+<circle cx="605.0" cy="325.0" r="3.5" fill="#d3dae6"/>
+<text x="617.0" y="331" font-size="16" fill="#d5d7e6" >GitHub</text>
+</g>
 </g>
 </svg>
