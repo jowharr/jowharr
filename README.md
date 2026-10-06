@@ -14,12 +14,8 @@
 </picture>
 
 <p align="center">
-  <a href="https://github.com/jowharr?tab=overview">
-    <img src="https://streak-stats.demolab.com?user=jowharr&amp;background=0D1117&amp;border=263244&amp;stroke=263244&amp;ring=72E5D6&amp;fire=B9A0FF&amp;currStreakNum=E6EDF3&amp;sideNums=E6EDF3&amp;currStreakLabel=72E5D6&amp;sideLabels=91A3B7&amp;dates=91A3B7&amp;border_radius=16&amp;disable_animations=true" width="495" alt="Jowhar's total GitHub contributions, current daily streak, and longest streak.">
-  </a>
+  <img src="https://streak-stats.demolab.com?user=jowharr&amp;background=0D1117&amp;border=263244&amp;stroke=263244&amp;ring=72E5D6&amp;fire=B9A0FF&amp;currStreakNum=E6EDF3&amp;sideNums=E6EDF3&amp;currStreakLabel=72E5D6&amp;sideLabels=91A3B7&amp;dates=91A3B7&amp;border_radius=16&amp;disable_animations=true" width="495" alt="Jowhar's total GitHub contributions, current daily streak, and longest streak.">
 </p>
-
-<p align="center"><a href="https://github.com/jowharr?tab=overview">View my contribution history →</a></p>
 
 <picture>
   <source media="(max-width: 600px)" srcset="./assets/focus-mobile.svg">

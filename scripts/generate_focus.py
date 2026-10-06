@@ -61,9 +61,15 @@ def render(mobile=False):
         '.eyebrow{font-family:ui-monospace,SFMono-Regular,Consolas,"Liberation Mono",monospace}',
         '@media(prefers-reduced-motion:no-preference){',
         '.topic{animation:appear .65s ease-out both}',
+        '.topic-drift{animation:drift 7s ease-in-out infinite;animation-delay:var(--phase)}',
+        '.topic-border{animation:border-glow 6s ease-in-out infinite;animation-delay:var(--phase)}',
+        '.dot-halo{transform-box:fill-box;transform-origin:center;animation:halo 4.5s ease-in-out infinite;animation-delay:var(--phase)}',
         '.glow{animation:ambient 10s ease-in-out infinite alternate}',
         '.glow.violet{animation-delay:-5s}',
         '@keyframes appear{from{opacity:0;transform:translateY(7px)}to{opacity:1;transform:translateY(0)}}',
+        '@keyframes drift{0%,100%{transform:translateY(0)}50%{transform:translateY(-1.5px)}}',
+        '@keyframes border-glow{0%,100%{stroke-opacity:.28}50%{stroke-opacity:.72}}',
+        '@keyframes halo{0%,100%{opacity:.12;transform:scale(.8)}50%{opacity:.32;transform:scale(1.3)}}',
         '@keyframes ambient{from{opacity:.55}to{opacity:1}}',
         '}',
         '</style>',
@@ -80,9 +86,12 @@ def render(mobile=False):
         for title, color, chip_width in row:
             parts.extend([
                 f'<g class="topic" style="animation-delay:{index * 90 + 100}ms">',
-                f'<rect x="{x}" y="{y}" width="{chip_width}" height="{chip_height}" rx="{chip_height / 2:g}" fill="#0d0d17" fill-opacity=".84" stroke="{color}" stroke-opacity=".28"/>',
+                f'<g class="topic-drift" style="--phase:{-index * 1.1:g}s">',
+                f'<rect class="topic-border" x="{x}" y="{y}" width="{chip_width}" height="{chip_height}" rx="{chip_height / 2:g}" fill="#0d0d17" fill-opacity=".84" stroke="{color}" stroke-opacity=".28"/>',
+                f'<circle class="dot-halo" cx="{x + 18}" cy="{y + chip_height / 2:g}" r="6.5" fill="{color}" opacity=".16"/>',
                 f'<circle cx="{x + 18}" cy="{y + chip_height / 2:g}" r="3.5" fill="{color}"/>',
                 f'<text x="{x + 31}" y="{y + chip_height / 2 + font_size * .35:g}" fill="#d6d6e1" font-size="{font_size}">{escape(title)}</text>',
+                '</g>',
                 '</g>',
             ])
             x += chip_width + gap

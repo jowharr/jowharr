@@ -56,7 +56,7 @@ def render(mobile=False):
         '<title id="title">Jowhar — Tech stack</title>',
         f'<desc id="desc">{escape(description)}</desc>',
         '<defs><radialGradient id="violet"><stop stop-color="#8b5cf6" stop-opacity=".21"/><stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/></radialGradient><radialGradient id="cyan"><stop stop-color="#00e5ff" stop-opacity=".14"/><stop offset="1" stop-color="#00e5ff" stop-opacity="0"/></radialGradient><clipPath id="bounds"><rect x="1" y="1" width="'+str(width-2)+'" height="'+str(height-2)+'" rx="20"/></clipPath></defs>',
-        '<style>text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}.chip{opacity:1}@media(prefers-reduced-motion:no-preference){.chip{animation:reveal .35s ease-out both}.ambient{animation:drift 11s ease-in-out infinite alternate}@keyframes reveal{from{opacity:0}to{opacity:1}}@keyframes drift{from{transform:translate(0,0)}to{transform:translate(15px,-10px)}}}</style>',
+        '<style>text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}.chip{opacity:1}@media(prefers-reduced-motion:no-preference){.chip{animation:reveal .35s ease-out both}.chip-float{animation:float 6s ease-in-out infinite}.chip-border{animation:border-glow 5s ease-in-out infinite}.chip-halo{animation:halo 4s ease-in-out infinite}.ambient{animation:drift 11s ease-in-out infinite alternate}@keyframes reveal{from{opacity:0}to{opacity:1}}@keyframes drift{from{transform:translate(0,0)}to{transform:translate(15px,-10px)}}@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-2px)}}@keyframes border-glow{0%,100%{stroke-opacity:.18;fill-opacity:.045}50%{stroke-opacity:.6;fill-opacity:.10}}@keyframes halo{0%,100%{opacity:.08}50%{opacity:.30}}}</style>',
         f'<rect x=".5" y=".5" width="{width-1}" height="{height-1}" rx="20" fill="#06060a" stroke="#202036"/>',
         '<g clip-path="url(#bounds)">',
         f'<ellipse class="ambient" cx="130" cy="{height-40}" rx="320" ry="250" fill="url(#violet)"/><ellipse class="ambient" cx="{width-100}" cy="55" rx="300" ry="220" fill="url(#cyan)"/>',
@@ -69,11 +69,12 @@ def render(mobile=False):
         for name, color, chip_width in row:
             parts.extend([
                 f'<g class="chip" style="animation-delay:{index*22}ms">',
-                f'<rect x="{x}" y="{y}" width="{chip_width}" height="{chip_height}" rx="11" fill="{color}" fill-opacity=".055" stroke="{color}" stroke-opacity=".22"/>',
-                f'<circle cx="{x+14}" cy="{y+chip_height/2}" r="7" fill="{color}" opacity=".08"/>',
+                f'<g class="chip-float" style="animation-delay:{-index*.23:.2f}s">',
+                f'<rect class="chip-border" style="animation-delay:{-index*.31:.2f}s" x="{x}" y="{y}" width="{chip_width}" height="{chip_height}" rx="11" fill="{color}" fill-opacity=".055" stroke="{color}" stroke-opacity=".22"/>',
+                f'<circle class="chip-halo" style="animation-delay:{-index*.27:.2f}s" cx="{x+14}" cy="{y+chip_height/2}" r="7" fill="{color}" opacity=".08"/>',
                 f'<circle cx="{x+14}" cy="{y+chip_height/2}" r="3.5" fill="{color}"/>',
                 label(x+26, y+27, name, font_size, "#d5d7e6"),
-                '</g>',
+                '</g></g>',
             ])
             index += 1
             x += chip_width+9

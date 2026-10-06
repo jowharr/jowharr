@@ -2,202 +2,234 @@
 <title id="title">Jowhar — Tech stack</title>
 <desc id="desc">Jowhar's toolkit: JavaScript, TypeScript, HTML, CSS, React, Next.js, Redux, Tailwind CSS, Bootstrap, Node.js, Express, REST APIs, JWT, API integrations, MongoDB, PostgreSQL, MariaDB, Redis, Mongoose, Prisma, Drizzle, Docker, NGINX, CI/CD, DNS, SSL, Git, Postman, VS Code, Vercel, Heroku, GitHub.</desc>
 <defs><radialGradient id="violet"><stop stop-color="#8b5cf6" stop-opacity=".21"/><stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/></radialGradient><radialGradient id="cyan"><stop stop-color="#00e5ff" stop-opacity=".14"/><stop offset="1" stop-color="#00e5ff" stop-opacity="0"/></radialGradient><clipPath id="bounds"><rect x="1" y="1" width="478" height="656" rx="20"/></clipPath></defs>
-<style>text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}.chip{opacity:1}@media(prefers-reduced-motion:no-preference){.chip{animation:reveal .35s ease-out both}.ambient{animation:drift 11s ease-in-out infinite alternate}@keyframes reveal{from{opacity:0}to{opacity:1}}@keyframes drift{from{transform:translate(0,0)}to{transform:translate(15px,-10px)}}}</style>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}.chip{opacity:1}@media(prefers-reduced-motion:no-preference){.chip{animation:reveal .35s ease-out both}.chip-float{animation:float 6s ease-in-out infinite}.chip-border{animation:border-glow 5s ease-in-out infinite}.chip-halo{animation:halo 4s ease-in-out infinite}.ambient{animation:drift 11s ease-in-out infinite alternate}@keyframes reveal{from{opacity:0}to{opacity:1}}@keyframes drift{from{transform:translate(0,0)}to{transform:translate(15px,-10px)}}@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-2px)}}@keyframes border-glow{0%,100%{stroke-opacity:.18;fill-opacity:.045}50%{stroke-opacity:.6;fill-opacity:.10}}@keyframes halo{0%,100%{opacity:.08}50%{opacity:.30}}}</style>
 <rect x=".5" y=".5" width="479" height="657" rx="20" fill="#06060a" stroke="#202036"/>
 <g clip-path="url(#bounds)">
 <ellipse class="ambient" cx="130" cy="618" rx="320" ry="250" fill="url(#violet)"/><ellipse class="ambient" cx="380" cy="55" rx="300" ry="220" fill="url(#cyan)"/>
 <text x="240.0" y="48" font-size="12" fill="#b1a0d4" text-anchor="middle" letter-spacing="5">TECH STACK</text>
 <g class="chip" style="animation-delay:0ms">
-<rect x="47.5" y="88" width="139" height="42" rx="11" fill="#f2d76d" fill-opacity=".055" stroke="#f2d76d" stroke-opacity=".22"/>
-<circle cx="61.5" cy="109.0" r="7" fill="#f2d76d" opacity=".08"/>
+<g class="chip-float" style="animation-delay:0.00s">
+<rect class="chip-border" style="animation-delay:0.00s" x="47.5" y="88" width="139" height="42" rx="11" fill="#f2d76d" fill-opacity=".055" stroke="#f2d76d" stroke-opacity=".22"/>
+<circle class="chip-halo" style="animation-delay:0.00s" cx="61.5" cy="109.0" r="7" fill="#f2d76d" opacity=".08"/>
 <circle cx="61.5" cy="109.0" r="3.5" fill="#f2d76d"/>
 <text x="73.5" y="115" font-size="18" fill="#d5d7e6" >JavaScript</text>
-</g>
+</g></g>
 <g class="chip" style="animation-delay:22ms">
-<rect x="195.5" y="88" width="139" height="42" rx="11" fill="#7fbbff" fill-opacity=".055" stroke="#7fbbff" stroke-opacity=".22"/>
-<circle cx="209.5" cy="109.0" r="7" fill="#7fbbff" opacity=".08"/>
+<g class="chip-float" style="animation-delay:-0.23s">
+<rect class="chip-border" style="animation-delay:-0.31s" x="195.5" y="88" width="139" height="42" rx="11" fill="#7fbbff" fill-opacity=".055" stroke="#7fbbff" stroke-opacity=".22"/>
+<circle class="chip-halo" style="animation-delay:-0.27s" cx="209.5" cy="109.0" r="7" fill="#7fbbff" opacity=".08"/>
 <circle cx="209.5" cy="109.0" r="3.5" fill="#7fbbff"/>
 <text x="221.5" y="115" font-size="18" fill="#d5d7e6" >TypeScript</text>
-</g>
+</g></g>
 <g class="chip" style="animation-delay:44ms">
-<rect x="343.5" y="88" width="89" height="42" rx="11" fill="#ffac86" fill-opacity=".055" stroke="#ffac86" stroke-opacity=".22"/>
-<circle cx="357.5" cy="109.0" r="7" fill="#ffac86" opacity=".08"/>
+<g class="chip-float" style="animation-delay:-0.46s">
+<rect class="chip-border" style="animation-delay:-0.62s" x="343.5" y="88" width="89" height="42" rx="11" fill="#ffac86" fill-opacity=".055" stroke="#ffac86" stroke-opacity=".22"/>
+<circle class="chip-halo" style="animation-delay:-0.54s" cx="357.5" cy="109.0" r="7" fill="#ffac86" opacity=".08"/>
 <circle cx="357.5" cy="109.0" r="3.5" fill="#ffac86"/>
 <text x="369.5" y="115" font-size="18" fill="#d5d7e6" >HTML</text>
-</g>
+</g></g>
 <g class="chip" style="animation-delay:66ms">
-<rect x="47.5" y="142" width="74" height="42" rx="11" fill="#aca4ff" fill-opacity=".055" stroke="#aca4ff" stroke-opacity=".22"/>
-<circle cx="61.5" cy="163.0" r="7" fill="#aca4ff" opacity=".08"/>
+<g class="chip-float" style="animation-delay:-0.69s">
+<rect class="chip-border" style="animation-delay:-0.93s" x="47.5" y="142" width="74" height="42" rx="11" fill="#aca4ff" fill-opacity=".055" stroke="#aca4ff" stroke-opacity=".22"/>
+<circle class="chip-halo" style="animation-delay:-0.81s" cx="61.5" cy="163.0" r="7" fill="#aca4ff" opacity=".08"/>
 <circle cx="61.5" cy="163.0" r="3.5" fill="#aca4ff"/>
 <text x="73.5" y="169" font-size="18" fill="#d5d7e6" >CSS</text>
-</g>
+</g></g>
 <g class="chip" style="animation-delay:88ms">
-<rect x="130.5" y="142" width="91" height="42" rx="11" fill="#79daf3" fill-opacity=".055" stroke="#79daf3" stroke-opacity=".22"/>
-<circle cx="144.5" cy="163.0" r="7" fill="#79daf3" opacity=".08"/>
+<g class="chip-float" style="animation-delay:-0.92s">
+<rect class="chip-border" style="animation-delay:-1.24s" x="130.5" y="142" width="91" height="42" rx="11" fill="#79daf3" fill-opacity=".055" stroke="#79daf3" stroke-opacity=".22"/>
+<circle class="chip-halo" style="animation-delay:-1.08s" cx="144.5" cy="163.0" r="7" fill="#79daf3" opacity=".08"/>
 <circle cx="144.5" cy="163.0" r="3.5" fill="#79daf3"/>
 <text x="156.5" y="169" font-size="18" fill="#d5d7e6" >React</text>
-</g>
+</g></g>
 <g class="chip" style="animation-delay:110ms">
-<rect x="230.5" y="142" width="102" height="42" rx="11" fill="#e7edf5" fill-opacity=".055" stroke="#e7edf5" stroke-opacity=".22"/>
-<circle cx="244.5" cy="163.0" r="7" fill="#e7edf5" opacity=".08"/>
+<g class="chip-float" style="animation-delay:-1.15s">
+<rect class="chip-border" style="animation-delay:-1.55s" x="230.5" y="142" width="102" height="42" rx="11" fill="#e7edf5" fill-opacity=".055" stroke="#e7edf5" stroke-opacity=".22"/>
+<circle class="chip-halo" style="animation-delay:-1.35s" cx="244.5" cy="163.0" r="7" fill="#e7edf5" opacity=".08"/>
 <circle cx="244.5" cy="163.0" r="3.5" fill="#e7edf5"/>
 <text x="256.5" y="169" font-size="18" fill="#d5d7e6" >Next.js</text>
-</g>
+</g></g>
 <g class="chip" style="animation-delay:132ms">
-<rect x="341.5" y="142" width="91" height="42" rx="11" fill="#bd9fff" fill-opacity=".055" stroke="#bd9fff" stroke-opacity=".22"/>
-<circle cx="355.5" cy="163.0" r="7" fill="#bd9fff" opacity=".08"/>
+<g class="chip-float" style="animation-delay:-1.38s">
+<rect class="chip-border" style="animation-delay:-1.86s" x="341.5" y="142" width="91" height="42" rx="11" fill="#bd9fff" fill-opacity=".055" stroke="#bd9fff" stroke-opacity=".22"/>
+<circle class="chip-halo" style="animation-delay:-1.62s" cx="355.5" cy="163.0" r="7" fill="#bd9fff" opacity=".08"/>
 <circle cx="355.5" cy="163.0" r="3.5" fill="#bd9fff"/>
 <text x="367.5" y="169" font-size="18" fill="#d5d7e6" >Redux</text>
-</g>
+</g></g>
 <g class="chip" style="animation-delay:154ms">
-<rect x="39.5" y="196" width="149" height="42" rx="11" fill="#72e5d6" fill-opacity=".055" stroke="#72e5d6" stroke-opacity=".22"/>
-<circle cx="53.5" cy="217.0" r="7" fill="#72e5d6" opacity=".08"/>
+<g class="chip-float" style="animation-delay:-1.61s">
+<rect class="chip-border" style="animation-delay:-2.17s" x="39.5" y="196" width="149" height="42" rx="11" fill="#72e5d6" fill-opacity=".055" stroke="#72e5d6" stroke-opacity=".22"/>
+<circle class="chip-halo" style="animation-delay:-1.89s" cx="53.5" cy="217.0" r="7" fill="#72e5d6" opacity=".08"/>
 <circle cx="53.5" cy="217.0" r="3.5" fill="#72e5d6"/>
 <text x="65.5" y="223" font-size="18" fill="#d5d7e6" >Tailwind CSS</text>
-</g>
+</g></g>
 <g class="chip" style="animation-delay:176ms">
-<rect x="197.5" y="196" width="132" height="42" rx="11" fill="#b9a0ff" fill-opacity=".055" stroke="#b9a0ff" stroke-opacity=".22"/>
-<circle cx="211.5" cy="217.0" r="7" fill="#b9a0ff" opacity=".08"/>
+<g class="chip-float" style="animation-delay:-1.84s">
+<rect class="chip-border" style="animation-delay:-2.48s" x="197.5" y="196" width="132" height="42" rx="11" fill="#b9a0ff" fill-opacity=".055" stroke="#b9a0ff" stroke-opacity=".22"/>
+<circle class="chip-halo" style="animation-delay:-2.16s" cx="211.5" cy="217.0" r="7" fill="#b9a0ff" opacity=".08"/>
 <circle cx="211.5" cy="217.0" r="3.5" fill="#b9a0ff"/>
 <text x="223.5" y="223" font-size="18" fill="#d5d7e6" >Bootstrap</text>
-</g>
+</g></g>
 <g class="chip" style="animation-delay:198ms">
-<rect x="338.5" y="196" width="102" height="42" rx="11" fill="#a0d990" fill-opacity=".055" stroke="#a0d990" stroke-opacity=".22"/>
-<circle cx="352.5" cy="217.0" r="7" fill="#a0d990" opacity=".08"/>
+<g class="chip-float" style="animation-delay:-2.07s">
+<rect class="chip-border" style="animation-delay:-2.79s" x="338.5" y="196" width="102" height="42" rx="11" fill="#a0d990" fill-opacity=".055" stroke="#a0d990" stroke-opacity=".22"/>
+<circle class="chip-halo" style="animation-delay:-2.43s" cx="352.5" cy="217.0" r="7" fill="#a0d990" opacity=".08"/>
 <circle cx="352.5" cy="217.0" r="3.5" fill="#a0d990"/>
 <text x="364.5" y="223" font-size="18" fill="#d5d7e6" >Node.js</text>
-</g>
+</g></g>
 <g class="chip" style="animation-delay:220ms">
-<rect x="71.5" y="250" width="111" height="42" rx="11" fill="#d3dae6" fill-opacity=".055" stroke="#d3dae6" stroke-opacity=".22"/>
-<circle cx="85.5" cy="271.0" r="7" fill="#d3dae6" opacity=".08"/>
+<g class="chip-float" style="animation-delay:-2.30s">
+<rect class="chip-border" style="animation-delay:-3.10s" x="71.5" y="250" width="111" height="42" rx="11" fill="#d3dae6" fill-opacity=".055" stroke="#d3dae6" stroke-opacity=".22"/>
+<circle class="chip-halo" style="animation-delay:-2.70s" cx="85.5" cy="271.0" r="7" fill="#d3dae6" opacity=".08"/>
 <circle cx="85.5" cy="271.0" r="3.5" fill="#d3dae6"/>
 <text x="97.5" y="277" font-size="18" fill="#d5d7e6" >Express</text>
-</g>
+</g></g>
 <g class="chip" style="animation-delay:242ms">
-<rect x="191.5" y="250" width="131" height="42" rx="11" fill="#72e5d6" fill-opacity=".055" stroke="#72e5d6" stroke-opacity=".22"/>
-<circle cx="205.5" cy="271.0" r="7" fill="#72e5d6" opacity=".08"/>
+<g class="chip-float" style="animation-delay:-2.53s">
+<rect class="chip-border" style="animation-delay:-3.41s" x="191.5" y="250" width="131" height="42" rx="11" fill="#72e5d6" fill-opacity=".055" stroke="#72e5d6" stroke-opacity=".22"/>
+<circle class="chip-halo" style="animation-delay:-2.97s" cx="205.5" cy="271.0" r="7" fill="#72e5d6" opacity=".08"/>
 <circle cx="205.5" cy="271.0" r="3.5" fill="#72e5d6"/>
 <text x="217.5" y="277" font-size="18" fill="#d5d7e6" >REST APIs</text>
-</g>
+</g></g>
 <g class="chip" style="animation-delay:264ms">
-<rect x="331.5" y="250" width="77" height="42" rx="11" fill="#efa1ca" fill-opacity=".055" stroke="#efa1ca" stroke-opacity=".22"/>
-<circle cx="345.5" cy="271.0" r="7" fill="#efa1ca" opacity=".08"/>
+<g class="chip-float" style="animation-delay:-2.76s">
+<rect class="chip-border" style="animation-delay:-3.72s" x="331.5" y="250" width="77" height="42" rx="11" fill="#efa1ca" fill-opacity=".055" stroke="#efa1ca" stroke-opacity=".22"/>
+<circle class="chip-halo" style="animation-delay:-3.24s" cx="345.5" cy="271.0" r="7" fill="#efa1ca" opacity=".08"/>
 <circle cx="345.5" cy="271.0" r="3.5" fill="#efa1ca"/>
 <text x="357.5" y="277" font-size="18" fill="#d5d7e6" >JWT</text>
-</g>
+</g></g>
 <g class="chip" style="animation-delay:286ms">
-<rect x="83.0" y="304" width="187" height="42" rx="11" fill="#a8b8ff" fill-opacity=".055" stroke="#a8b8ff" stroke-opacity=".22"/>
-<circle cx="97.0" cy="325.0" r="7" fill="#a8b8ff" opacity=".08"/>
+<g class="chip-float" style="animation-delay:-2.99s">
+<rect class="chip-border" style="animation-delay:-4.03s" x="83.0" y="304" width="187" height="42" rx="11" fill="#a8b8ff" fill-opacity=".055" stroke="#a8b8ff" stroke-opacity=".22"/>
+<circle class="chip-halo" style="animation-delay:-3.51s" cx="97.0" cy="325.0" r="7" fill="#a8b8ff" opacity=".08"/>
 <circle cx="97.0" cy="325.0" r="3.5" fill="#a8b8ff"/>
 <text x="109.0" y="331" font-size="18" fill="#d5d7e6" >API integrations</text>
-</g>
+</g></g>
 <g class="chip" style="animation-delay:308ms">
-<rect x="279.0" y="304" width="118" height="42" rx="11" fill="#a0d990" fill-opacity=".055" stroke="#a0d990" stroke-opacity=".22"/>
-<circle cx="293.0" cy="325.0" r="7" fill="#a0d990" opacity=".08"/>
+<g class="chip-float" style="animation-delay:-3.22s">
+<rect class="chip-border" style="animation-delay:-4.34s" x="279.0" y="304" width="118" height="42" rx="11" fill="#a0d990" fill-opacity=".055" stroke="#a0d990" stroke-opacity=".22"/>
+<circle class="chip-halo" style="animation-delay:-3.78s" cx="293.0" cy="325.0" r="7" fill="#a0d990" opacity=".08"/>
 <circle cx="293.0" cy="325.0" r="3.5" fill="#a0d990"/>
 <text x="305.0" y="331" font-size="18" fill="#d5d7e6" >MongoDB</text>
-</g>
+</g></g>
 <g class="chip" style="animation-delay:330ms">
-<rect x="57.5" y="358" width="147" height="42" rx="11" fill="#88bde8" fill-opacity=".055" stroke="#88bde8" stroke-opacity=".22"/>
-<circle cx="71.5" cy="379.0" r="7" fill="#88bde8" opacity=".08"/>
+<g class="chip-float" style="animation-delay:-3.45s">
+<rect class="chip-border" style="animation-delay:-4.65s" x="57.5" y="358" width="147" height="42" rx="11" fill="#88bde8" fill-opacity=".055" stroke="#88bde8" stroke-opacity=".22"/>
+<circle class="chip-halo" style="animation-delay:-4.05s" cx="71.5" cy="379.0" r="7" fill="#88bde8" opacity=".08"/>
 <circle cx="71.5" cy="379.0" r="3.5" fill="#88bde8"/>
 <text x="83.5" y="385" font-size="18" fill="#d5d7e6" >PostgreSQL</text>
-</g>
+</g></g>
 <g class="chip" style="animation-delay:352ms">
-<rect x="213.5" y="358" width="114" height="42" rx="11" fill="#e7c39c" fill-opacity=".055" stroke="#e7c39c" stroke-opacity=".22"/>
-<circle cx="227.5" cy="379.0" r="7" fill="#e7c39c" opacity=".08"/>
+<g class="chip-float" style="animation-delay:-3.68s">
+<rect class="chip-border" style="animation-delay:-4.96s" x="213.5" y="358" width="114" height="42" rx="11" fill="#e7c39c" fill-opacity=".055" stroke="#e7c39c" stroke-opacity=".22"/>
+<circle class="chip-halo" style="animation-delay:-4.32s" cx="227.5" cy="379.0" r="7" fill="#e7c39c" opacity=".08"/>
 <circle cx="227.5" cy="379.0" r="3.5" fill="#e7c39c"/>
 <text x="239.5" y="385" font-size="18" fill="#d5d7e6" >MariaDB</text>
-</g>
+</g></g>
 <g class="chip" style="animation-delay:374ms">
-<rect x="336.5" y="358" width="86" height="42" rx="11" fill="#f3939c" fill-opacity=".055" stroke="#f3939c" stroke-opacity=".22"/>
-<circle cx="350.5" cy="379.0" r="7" fill="#f3939c" opacity=".08"/>
+<g class="chip-float" style="animation-delay:-3.91s">
+<rect class="chip-border" style="animation-delay:-5.27s" x="336.5" y="358" width="86" height="42" rx="11" fill="#f3939c" fill-opacity=".055" stroke="#f3939c" stroke-opacity=".22"/>
+<circle class="chip-halo" style="animation-delay:-4.59s" cx="350.5" cy="379.0" r="7" fill="#f3939c" opacity=".08"/>
 <circle cx="350.5" cy="379.0" r="3.5" fill="#f3939c"/>
 <text x="362.5" y="385" font-size="18" fill="#d5d7e6" >Redis</text>
-</g>
+</g></g>
 <g class="chip" style="animation-delay:396ms">
-<rect x="69.5" y="412" width="125" height="42" rx="11" fill="#d9a0a5" fill-opacity=".055" stroke="#d9a0a5" stroke-opacity=".22"/>
-<circle cx="83.5" cy="433.0" r="7" fill="#d9a0a5" opacity=".08"/>
+<g class="chip-float" style="animation-delay:-4.14s">
+<rect class="chip-border" style="animation-delay:-5.58s" x="69.5" y="412" width="125" height="42" rx="11" fill="#d9a0a5" fill-opacity=".055" stroke="#d9a0a5" stroke-opacity=".22"/>
+<circle class="chip-halo" style="animation-delay:-4.86s" cx="83.5" cy="433.0" r="7" fill="#d9a0a5" opacity=".08"/>
 <circle cx="83.5" cy="433.0" r="3.5" fill="#d9a0a5"/>
 <text x="95.5" y="439" font-size="18" fill="#d5d7e6" >Mongoose</text>
-</g>
+</g></g>
 <g class="chip" style="animation-delay:418ms">
-<rect x="203.5" y="412" width="96" height="42" rx="11" fill="#b9a0ff" fill-opacity=".055" stroke="#b9a0ff" stroke-opacity=".22"/>
-<circle cx="217.5" cy="433.0" r="7" fill="#b9a0ff" opacity=".08"/>
+<g class="chip-float" style="animation-delay:-4.37s">
+<rect class="chip-border" style="animation-delay:-5.89s" x="203.5" y="412" width="96" height="42" rx="11" fill="#b9a0ff" fill-opacity=".055" stroke="#b9a0ff" stroke-opacity=".22"/>
+<circle class="chip-halo" style="animation-delay:-5.13s" cx="217.5" cy="433.0" r="7" fill="#b9a0ff" opacity=".08"/>
 <circle cx="217.5" cy="433.0" r="3.5" fill="#b9a0ff"/>
 <text x="229.5" y="439" font-size="18" fill="#d5d7e6" >Prisma</text>
-</g>
+</g></g>
 <g class="chip" style="animation-delay:440ms">
-<rect x="308.5" y="412" width="102" height="42" rx="11" fill="#c6e992" fill-opacity=".055" stroke="#c6e992" stroke-opacity=".22"/>
-<circle cx="322.5" cy="433.0" r="7" fill="#c6e992" opacity=".08"/>
+<g class="chip-float" style="animation-delay:-4.60s">
+<rect class="chip-border" style="animation-delay:-6.20s" x="308.5" y="412" width="102" height="42" rx="11" fill="#c6e992" fill-opacity=".055" stroke="#c6e992" stroke-opacity=".22"/>
+<circle class="chip-halo" style="animation-delay:-5.40s" cx="322.5" cy="433.0" r="7" fill="#c6e992" opacity=".08"/>
 <circle cx="322.5" cy="433.0" r="3.5" fill="#c6e992"/>
 <text x="334.5" y="439" font-size="18" fill="#d5d7e6" >Drizzle</text>
-</g>
+</g></g>
 <g class="chip" style="animation-delay:462ms">
-<rect x="49.0" y="466" width="101" height="42" rx="11" fill="#7fbbff" fill-opacity=".055" stroke="#7fbbff" stroke-opacity=".22"/>
-<circle cx="63.0" cy="487.0" r="7" fill="#7fbbff" opacity=".08"/>
+<g class="chip-float" style="animation-delay:-4.83s">
+<rect class="chip-border" style="animation-delay:-6.51s" x="49.0" y="466" width="101" height="42" rx="11" fill="#7fbbff" fill-opacity=".055" stroke="#7fbbff" stroke-opacity=".22"/>
+<circle class="chip-halo" style="animation-delay:-5.67s" cx="63.0" cy="487.0" r="7" fill="#7fbbff" opacity=".08"/>
 <circle cx="63.0" cy="487.0" r="3.5" fill="#7fbbff"/>
 <text x="75.0" y="493" font-size="18" fill="#d5d7e6" >Docker</text>
-</g>
+</g></g>
 <g class="chip" style="animation-delay:484ms">
-<rect x="159.0" y="466" width="91" height="42" rx="11" fill="#a0d990" fill-opacity=".055" stroke="#a0d990" stroke-opacity=".22"/>
-<circle cx="173.0" cy="487.0" r="7" fill="#a0d990" opacity=".08"/>
+<g class="chip-float" style="animation-delay:-5.06s">
+<rect class="chip-border" style="animation-delay:-6.82s" x="159.0" y="466" width="91" height="42" rx="11" fill="#a0d990" fill-opacity=".055" stroke="#a0d990" stroke-opacity=".22"/>
+<circle class="chip-halo" style="animation-delay:-5.94s" cx="173.0" cy="487.0" r="7" fill="#a0d990" opacity=".08"/>
 <circle cx="173.0" cy="487.0" r="3.5" fill="#a0d990"/>
 <text x="185.0" y="493" font-size="18" fill="#d5d7e6" >NGINX</text>
-</g>
+</g></g>
 <g class="chip" style="animation-delay:506ms">
-<rect x="259.0" y="466" width="89" height="42" rx="11" fill="#72e5d6" fill-opacity=".055" stroke="#72e5d6" stroke-opacity=".22"/>
-<circle cx="273.0" cy="487.0" r="7" fill="#72e5d6" opacity=".08"/>
+<g class="chip-float" style="animation-delay:-5.29s">
+<rect class="chip-border" style="animation-delay:-7.13s" x="259.0" y="466" width="89" height="42" rx="11" fill="#72e5d6" fill-opacity=".055" stroke="#72e5d6" stroke-opacity=".22"/>
+<circle class="chip-halo" style="animation-delay:-6.21s" cx="273.0" cy="487.0" r="7" fill="#72e5d6" opacity=".08"/>
 <circle cx="273.0" cy="487.0" r="3.5" fill="#72e5d6"/>
 <text x="285.0" y="493" font-size="18" fill="#d5d7e6" >CI/CD</text>
-</g>
+</g></g>
 <g class="chip" style="animation-delay:528ms">
-<rect x="357.0" y="466" width="74" height="42" rx="11" fill="#b9a0ff" fill-opacity=".055" stroke="#b9a0ff" stroke-opacity=".22"/>
-<circle cx="371.0" cy="487.0" r="7" fill="#b9a0ff" opacity=".08"/>
+<g class="chip-float" style="animation-delay:-5.52s">
+<rect class="chip-border" style="animation-delay:-7.44s" x="357.0" y="466" width="74" height="42" rx="11" fill="#b9a0ff" fill-opacity=".055" stroke="#b9a0ff" stroke-opacity=".22"/>
+<circle class="chip-halo" style="animation-delay:-6.48s" cx="371.0" cy="487.0" r="7" fill="#b9a0ff" opacity=".08"/>
 <circle cx="371.0" cy="487.0" r="3.5" fill="#b9a0ff"/>
 <text x="383.0" y="493" font-size="18" fill="#d5d7e6" >DNS</text>
-</g>
+</g></g>
 <g class="chip" style="animation-delay:550ms">
-<rect x="46.0" y="520" width="74" height="42" rx="11" fill="#e8cd92" fill-opacity=".055" stroke="#e8cd92" stroke-opacity=".22"/>
-<circle cx="60.0" cy="541.0" r="7" fill="#e8cd92" opacity=".08"/>
+<g class="chip-float" style="animation-delay:-5.75s">
+<rect class="chip-border" style="animation-delay:-7.75s" x="46.0" y="520" width="74" height="42" rx="11" fill="#e8cd92" fill-opacity=".055" stroke="#e8cd92" stroke-opacity=".22"/>
+<circle class="chip-halo" style="animation-delay:-6.75s" cx="60.0" cy="541.0" r="7" fill="#e8cd92" opacity=".08"/>
 <circle cx="60.0" cy="541.0" r="3.5" fill="#e8cd92"/>
 <text x="72.0" y="547" font-size="18" fill="#d5d7e6" >SSL</text>
-</g>
+</g></g>
 <g class="chip" style="animation-delay:572ms">
-<rect x="129.0" y="520" width="66" height="42" rx="11" fill="#ffac86" fill-opacity=".055" stroke="#ffac86" stroke-opacity=".22"/>
-<circle cx="143.0" cy="541.0" r="7" fill="#ffac86" opacity=".08"/>
+<g class="chip-float" style="animation-delay:-5.98s">
+<rect class="chip-border" style="animation-delay:-8.06s" x="129.0" y="520" width="66" height="42" rx="11" fill="#ffac86" fill-opacity=".055" stroke="#ffac86" stroke-opacity=".22"/>
+<circle class="chip-halo" style="animation-delay:-7.02s" cx="143.0" cy="541.0" r="7" fill="#ffac86" opacity=".08"/>
 <circle cx="143.0" cy="541.0" r="3.5" fill="#ffac86"/>
 <text x="155.0" y="547" font-size="18" fill="#d5d7e6" >Git</text>
-</g>
+</g></g>
 <g class="chip" style="animation-delay:594ms">
-<rect x="204.0" y="520" width="111" height="42" rx="11" fill="#ffac86" fill-opacity=".055" stroke="#ffac86" stroke-opacity=".22"/>
-<circle cx="218.0" cy="541.0" r="7" fill="#ffac86" opacity=".08"/>
+<g class="chip-float" style="animation-delay:-6.21s">
+<rect class="chip-border" style="animation-delay:-8.37s" x="204.0" y="520" width="111" height="42" rx="11" fill="#ffac86" fill-opacity=".055" stroke="#ffac86" stroke-opacity=".22"/>
+<circle class="chip-halo" style="animation-delay:-7.29s" cx="218.0" cy="541.0" r="7" fill="#ffac86" opacity=".08"/>
 <circle cx="218.0" cy="541.0" r="3.5" fill="#ffac86"/>
 <text x="230.0" y="547" font-size="18" fill="#d5d7e6" >Postman</text>
-</g>
+</g></g>
 <g class="chip" style="animation-delay:616ms">
-<rect x="324.0" y="520" width="110" height="42" rx="11" fill="#7fbbff" fill-opacity=".055" stroke="#7fbbff" stroke-opacity=".22"/>
-<circle cx="338.0" cy="541.0" r="7" fill="#7fbbff" opacity=".08"/>
+<g class="chip-float" style="animation-delay:-6.44s">
+<rect class="chip-border" style="animation-delay:-8.68s" x="324.0" y="520" width="110" height="42" rx="11" fill="#7fbbff" fill-opacity=".055" stroke="#7fbbff" stroke-opacity=".22"/>
+<circle class="chip-halo" style="animation-delay:-7.56s" cx="338.0" cy="541.0" r="7" fill="#7fbbff" opacity=".08"/>
 <circle cx="338.0" cy="541.0" r="3.5" fill="#7fbbff"/>
 <text x="350.0" y="547" font-size="18" fill="#d5d7e6" >VS Code</text>
-</g>
+</g></g>
 <g class="chip" style="animation-delay:638ms">
-<rect x="83.5" y="574" width="96" height="42" rx="11" fill="#e7edf5" fill-opacity=".055" stroke="#e7edf5" stroke-opacity=".22"/>
-<circle cx="97.5" cy="595.0" r="7" fill="#e7edf5" opacity=".08"/>
+<g class="chip-float" style="animation-delay:-6.67s">
+<rect class="chip-border" style="animation-delay:-8.99s" x="83.5" y="574" width="96" height="42" rx="11" fill="#e7edf5" fill-opacity=".055" stroke="#e7edf5" stroke-opacity=".22"/>
+<circle class="chip-halo" style="animation-delay:-7.83s" cx="97.5" cy="595.0" r="7" fill="#e7edf5" opacity=".08"/>
 <circle cx="97.5" cy="595.0" r="3.5" fill="#e7edf5"/>
 <text x="109.5" y="601" font-size="18" fill="#d5d7e6" >Vercel</text>
-</g>
+</g></g>
 <g class="chip" style="animation-delay:660ms">
-<rect x="188.5" y="574" width="101" height="42" rx="11" fill="#b9a0ff" fill-opacity=".055" stroke="#b9a0ff" stroke-opacity=".22"/>
-<circle cx="202.5" cy="595.0" r="7" fill="#b9a0ff" opacity=".08"/>
+<g class="chip-float" style="animation-delay:-6.90s">
+<rect class="chip-border" style="animation-delay:-9.30s" x="188.5" y="574" width="101" height="42" rx="11" fill="#b9a0ff" fill-opacity=".055" stroke="#b9a0ff" stroke-opacity=".22"/>
+<circle class="chip-halo" style="animation-delay:-8.10s" cx="202.5" cy="595.0" r="7" fill="#b9a0ff" opacity=".08"/>
 <circle cx="202.5" cy="595.0" r="3.5" fill="#b9a0ff"/>
 <text x="214.5" y="601" font-size="18" fill="#d5d7e6" >Heroku</text>
-</g>
+</g></g>
 <g class="chip" style="animation-delay:682ms">
-<rect x="298.5" y="574" width="98" height="42" rx="11" fill="#d3dae6" fill-opacity=".055" stroke="#d3dae6" stroke-opacity=".22"/>
-<circle cx="312.5" cy="595.0" r="7" fill="#d3dae6" opacity=".08"/>
+<g class="chip-float" style="animation-delay:-7.13s">
+<rect class="chip-border" style="animation-delay:-9.61s" x="298.5" y="574" width="98" height="42" rx="11" fill="#d3dae6" fill-opacity=".055" stroke="#d3dae6" stroke-opacity=".22"/>
+<circle class="chip-halo" style="animation-delay:-8.37s" cx="312.5" cy="595.0" r="7" fill="#d3dae6" opacity=".08"/>
 <circle cx="312.5" cy="595.0" r="3.5" fill="#d3dae6"/>
 <text x="324.5" y="601" font-size="18" fill="#d5d7e6" >GitHub</text>
-</g>
+</g></g>
 </g>
 </svg>

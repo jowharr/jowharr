@@ -74,8 +74,17 @@ The streak image is supplied by
 It displays total contributions, the current daily streak, and the longest
 streak. It uses the public jowharr profile; no token is included in the README.
 The hosted service and GitHub's image cache determine refresh timing, so updates
-are not instantaneous. The adjacent contribution-history link goes to GitHub.
+are not instantaneous. The card has no profile-overview link, which avoids navigating back to the top of the same profile.
 
 This remote statistics card is separate from the self-contained local artwork.
 The originally considered activity-graph endpoint returned HTTP 402 during
 verification, so it is not embedded.
+
+## Card motion
+
+The technology chips and exploring topics have staggered entrance animations,
+gentle floating motion, pulsing borders, and soft indicator halos. Motion is
+restricted to decorative details; labels stay readable after their entrance.
+All effects are inside the no-preference reduced-motion media query, leaving
+a static, fully visible composition for readers who prefer less motion.
+The ASCII portrait retains its original top-to-bottom reveal.
