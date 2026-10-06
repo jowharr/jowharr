@@ -9,15 +9,16 @@
 <style>
 text{font-family:Arial,Helvetica,sans-serif}
 .eyebrow{font-family:ui-monospace,SFMono-Regular,Consolas,"Liberation Mono",monospace}
+.topic-trace{opacity:0}
 @media(prefers-reduced-motion:no-preference){
 .topic{animation:appear .65s ease-out both}
-.topic-drift{animation:drift 7s ease-in-out infinite;animation-delay:var(--phase)}
 .topic-border{animation:border-glow 6s ease-in-out infinite;animation-delay:var(--phase)}
+.topic-trace{opacity:.85;animation:trace 3.2s linear infinite;animation-delay:var(--phase)}
 .dot-halo{transform-box:fill-box;transform-origin:center;animation:halo 4.5s ease-in-out infinite;animation-delay:var(--phase)}
 .glow{animation:ambient 10s ease-in-out infinite alternate}
 .glow.violet{animation-delay:-5s}
 @keyframes appear{from{opacity:0;transform:translateY(7px)}to{opacity:1;transform:translateY(0)}}
-@keyframes drift{0%,100%{transform:translateY(0)}50%{transform:translateY(-1.5px)}}
+@keyframes trace{from{stroke-dashoffset:0}to{stroke-dashoffset:-100}}
 @keyframes border-glow{0%,100%{stroke-opacity:.28}50%{stroke-opacity:.72}}
 @keyframes halo{0%,100%{opacity:.12;transform:scale(.8)}50%{opacity:.32;transform:scale(1.3)}}
 @keyframes ambient{from{opacity:.55}to{opacity:1}}
@@ -30,48 +31,54 @@ text{font-family:Arial,Helvetica,sans-serif}
 </g>
 <text class="eyebrow" x="28" y="47" fill="#aaaabb" font-size="13" letter-spacing="3">CURRENTLY EXPLORING</text>
 <g class="topic" style="animation-delay:100ms">
-<g class="topic-drift" style="--phase:0s">
+<g style="--phase:0s">
 <rect class="topic-border" x="28" y="86" width="248" height="46" rx="23" fill="#0d0d17" fill-opacity=".84" stroke="#00e5ff" stroke-opacity=".28"/>
+<rect class="topic-trace" x="28" y="86" width="248" height="46" rx="23" fill="none" stroke="#00e5ff" stroke-width="2" stroke-linecap="round" pathLength="100" stroke-dasharray="18 82"/>
 <circle class="dot-halo" cx="46" cy="109" r="6.5" fill="#00e5ff" opacity=".16"/>
 <circle cx="46" cy="109" r="3.5" fill="#00e5ff"/>
 <text x="59" y="115.3" fill="#d6d6e1" font-size="18">AI-Assisted Engineering</text>
 </g>
 </g>
 <g class="topic" style="animation-delay:190ms">
-<g class="topic-drift" style="--phase:-1.1s">
+<g style="--phase:-1.1s">
 <rect class="topic-border" x="28" y="148" width="307" height="46" rx="23" fill="#0d0d17" fill-opacity=".84" stroke="#8b5cf6" stroke-opacity=".28"/>
+<rect class="topic-trace" x="28" y="148" width="307" height="46" rx="23" fill="none" stroke="#8b5cf6" stroke-width="2" stroke-linecap="round" pathLength="100" stroke-dasharray="18 82"/>
 <circle class="dot-halo" cx="46" cy="171" r="6.5" fill="#8b5cf6" opacity=".16"/>
 <circle cx="46" cy="171" r="3.5" fill="#8b5cf6"/>
 <text x="59" y="177.3" fill="#d6d6e1" font-size="18">Scalable Frontend Architecture</text>
 </g>
 </g>
 <g class="topic" style="animation-delay:280ms">
-<g class="topic-drift" style="--phase:-2.2s">
+<g style="--phase:-2.2s">
 <rect class="topic-border" x="28" y="210" width="326" height="46" rx="23" fill="#0d0d17" fill-opacity=".84" stroke="#3366ff" stroke-opacity=".28"/>
+<rect class="topic-trace" x="28" y="210" width="326" height="46" rx="23" fill="none" stroke="#3366ff" stroke-width="2" stroke-linecap="round" pathLength="100" stroke-dasharray="18 82"/>
 <circle class="dot-halo" cx="46" cy="233" r="6.5" fill="#3366ff" opacity=".16"/>
 <circle cx="46" cy="233" r="3.5" fill="#3366ff"/>
 <text x="59" y="239.3" fill="#d6d6e1" font-size="18">Distributed Systems Visualization</text>
 </g>
 </g>
 <g class="topic" style="animation-delay:370ms">
-<g class="topic-drift" style="--phase:-3.3s">
+<g style="--phase:-3.3s">
 <rect class="topic-border" x="28" y="272" width="241" height="46" rx="23" fill="#0d0d17" fill-opacity=".84" stroke="#ec4899" stroke-opacity=".28"/>
+<rect class="topic-trace" x="28" y="272" width="241" height="46" rx="23" fill="none" stroke="#ec4899" stroke-width="2" stroke-linecap="round" pathLength="100" stroke-dasharray="18 82"/>
 <circle class="dot-halo" cx="46" cy="295" r="6.5" fill="#ec4899" opacity=".16"/>
 <circle cx="46" cy="295" r="3.5" fill="#ec4899"/>
 <text x="59" y="301.3" fill="#d6d6e1" font-size="18">Modern UI Engineering</text>
 </g>
 </g>
 <g class="topic" style="animation-delay:460ms">
-<g class="topic-drift" style="--phase:-4.4s">
+<g style="--phase:-4.4s">
 <rect class="topic-border" x="28" y="334" width="243" height="46" rx="23" fill="#0d0d17" fill-opacity=".84" stroke="#a855f7" stroke-opacity=".28"/>
+<rect class="topic-trace" x="28" y="334" width="243" height="46" rx="23" fill="none" stroke="#a855f7" stroke-width="2" stroke-linecap="round" pathLength="100" stroke-dasharray="18 82"/>
 <circle class="dot-halo" cx="46" cy="357" r="6.5" fill="#a855f7" opacity=".16"/>
 <circle cx="46" cy="357" r="3.5" fill="#a855f7"/>
 <text x="59" y="363.3" fill="#d6d6e1" font-size="18">Real-time Observability</text>
 </g>
 </g>
 <g class="topic" style="animation-delay:550ms">
-<g class="topic-drift" style="--phase:-5.5s">
+<g style="--phase:-5.5s">
 <rect class="topic-border" x="28" y="396" width="272" height="46" rx="23" fill="#0d0d17" fill-opacity=".84" stroke="#00b4ff" stroke-opacity=".28"/>
+<rect class="topic-trace" x="28" y="396" width="272" height="46" rx="23" fill="none" stroke="#00b4ff" stroke-width="2" stroke-linecap="round" pathLength="100" stroke-dasharray="18 82"/>
 <circle class="dot-halo" cx="46" cy="419" r="6.5" fill="#00b4ff" opacity=".16"/>
 <circle cx="46" cy="419" r="3.5" fill="#00b4ff"/>
 <text x="59" y="425.3" fill="#d6d6e1" font-size="18">LLM Integrations &amp; Tooling</text>

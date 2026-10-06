@@ -4,13 +4,13 @@
 </picture>
 
 <picture>
-  <source media="(max-width: 600px)" srcset="./assets/toolkit-mobile.svg">
-  <img src="./assets/toolkit.svg" width="100%" alt="Tech stack: JavaScript, TypeScript, HTML, CSS, React, Next.js, Redux, Tailwind CSS, Bootstrap, Node.js, Express, REST APIs, JWT, API integrations, MongoDB, PostgreSQL, MariaDB, Redis, Mongoose, Prisma, Drizzle, Docker, NGINX, CI/CD, DNS, SSL, Git, Postman, VS Code, Vercel, Heroku, and GitHub.">
+  <source media="(max-width: 600px)" srcset="./assets/terminal-mobile.svg">
+  <img src="./assets/terminal.svg" width="100%" alt="Animated ASCII portrait and terminal profile for Jowhar, a senior full-stack developer working remotely from Kerala, India. Web apps, ERP platforms, dashboards, mobile backends, and integrations. Contact: jowhar.dev@gmail.com.">
 </picture>
 
 <picture>
-  <source media="(max-width: 600px)" srcset="./assets/terminal-mobile.svg">
-  <img src="./assets/terminal.svg" width="100%" alt="Animated ASCII portrait and terminal profile for Jowhar, a senior full-stack developer working remotely from Kerala, India. Web apps, ERP platforms, dashboards, mobile backends, and integrations. Contact: jowhar.dev@gmail.com.">
+  <source media="(max-width: 600px)" srcset="./assets/toolkit-mobile.svg">
+  <img src="./assets/toolkit.svg" width="100%" alt="Tech stack: JavaScript, TypeScript, HTML, CSS, React, Next.js, Redux, Tailwind CSS, Bootstrap, Node.js, Express, REST APIs, JWT, API integrations, MongoDB, PostgreSQL, MariaDB, Redis, Mongoose, Prisma, Drizzle, Docker, NGINX, CI/CD, DNS, SSL, Git, Postman, VS Code, Vercel, Heroku, and GitHub.">
 </picture>
 
 <p align="center">

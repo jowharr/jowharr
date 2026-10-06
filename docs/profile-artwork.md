@@ -83,8 +83,13 @@ verification, so it is not embedded.
 ## Card motion
 
 The technology chips and exploring topics have staggered entrance animations,
-gentle floating motion, pulsing borders, and soft indicator halos. Motion is
+bright traveling border accents, pulsing borders, and soft indicator halos. Motion is
 restricted to decorative details; labels stay readable after their entrance.
 All effects are inside the no-preference reduced-motion media query, leaving
 a static, fully visible composition for readers who prefer less motion.
 The ASCII portrait retains its original top-to-bottom reveal.
+
+The reading order is hero, profile.sh portrait terminal, then tech stack.
+The chip and topic border accents loop every 3.2 seconds so their motion stays
+visible after the initial entrance. Labels remain stationary. The trace overlays
+are hidden when reduced motion is requested, leaving the static base borders.
