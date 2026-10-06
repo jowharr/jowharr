@@ -1,102 +1,52 @@
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=2E9EF7&center=true&vCenter=true&width=435&lines=Full+Stack+Developer;React+%26+Next.js+Expert;Node.js+Specialist;Backend+%26+Frontend+Pro;Always+Learning+%F0%9F%9A%80" alt="Typing SVG" />
-</div>
-
-<h1 align="center">👋 Hi, I'm Jowhar</h1>
-<h3 align="center">A passionate Full Stack Developer specializing in React, Next.js & Node.js</h3>
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/hero-mobile.svg">
+  <img src="./assets/hero.svg" width="100%" alt="Jowhar — Senior Full-Stack Developer. Web applications, backend systems, and APIs.">
+</picture>
 
 <p align="center">
-  <a href="https://github.com/jowharr"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
-  <a href="https://linkedin.com/in/jowharr"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="mailto:mohdalijowhar@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/></a>
-  <a href="https://portfolio-one-henna-56.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white" alt="Portfolio"/></a>
+  <a href="https://portfolio-one-henna-56.vercel.app/">Portfolio</a> &nbsp; / &nbsp;
+  <a href="https://linkedin.com/in/jowharr">LinkedIn</a> &nbsp; / &nbsp;
+  <a href="mailto:mohdalijowhar@gmail.com">Email</a>
 </p>
 
-<br/>
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/terminal-mobile.svg">
+  <img src="./assets/terminal.svg" width="100%" alt="Animated ASCII portrait and terminal profile for Jowhar, a senior full-stack developer in Kerala, India, working across React, Next.js, Node.js, Express, databases, APIs, and infrastructure.">
+</picture>
 
-## 🚀 About Me
+### A little about me
 
-```javascript
-const developer = {
-  name: "Jowhar",
-  location: "Kozhikode, India",
-  role: "Full Stack Developer",
-  workingOn: "Building scalable web applications",
-  learning: ["TypeScript", "Microservices", "Cloud Architecture"],
-  expertise: ["Node.js", "React", "Next.js", "MongoDB", "PostgreSQL"]
-};
-```
+I'm **Jowhar**, a senior full-stack developer working remotely from **Kerala, India**. I build web applications, backend systems, APIs, and dashboards, with experience across ERP platforms and mobile application backends.
 
-- 🔭 I'm currently working on **Full-stack applications with Next.js & React**
-- 🌱 I'm currently learning **Advanced System Design & Cloud Technologies**
-- 💬 Ask me about **Node.js, Express, React, Next.js, MongoDB, PostgreSQL, REST APIs**
-- 📫 How to reach me: **mohdalijowhar@gmail.com**
+I enjoy connecting the whole system: the interface, business logic, authentication, data, and deployment.
 
-<br/>
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/toolkit-mobile.svg">
+  <img src="./assets/toolkit.svg" width="100%" alt="My toolkit: JavaScript, TypeScript, HTML, CSS, React, Next.js, Redux, Tailwind CSS, Bootstrap, Node.js, Express, REST APIs, JWT, API integrations, MongoDB, PostgreSQL, MariaDB, Redis, Mongoose, Prisma, Drizzle, Docker, NGINX, CI/CD, DNS, SSL, Git, Postman, VS Code, Vercel, Heroku, and GitHub.">
+</picture>
 
-## 🛠️ Tech Stack
+<details>
+<summary>View the toolkit as text</summary>
 
-### Backend
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+| Area | Tools & technologies |
+| :--- | :--- |
+| Languages & web | JavaScript, TypeScript, HTML, CSS |
+| Frontend | React, Next.js, Redux, Tailwind CSS, Bootstrap |
+| Backend & APIs | Node.js, Express, REST APIs, JWT authentication, API integrations |
+| Databases & ORMs | MongoDB, PostgreSQL, MariaDB, Redis, Mongoose, Prisma, Drizzle |
+| Infrastructure | Docker, NGINX, CI/CD, DNS, SSL, Git |
+| Workspace & platforms | Postman, VS Code, Vercel, Heroku, GitHub |
 
-### Databases & ORMs
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![Mongoose](https://img.shields.io/badge/Mongoose-880000?style=for-the-badge&logo=mongoose&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+</details>
 
-### Frontend
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+### Currently exploring
 
-### Tools & Platforms
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)
+**Python · Django · Django REST Framework · Kubernetes · Cloud infrastructure · System architecture**
 
-<br/>
+Always learning, with a focus on building reliable systems and keeping complexity manageable.
 
-## 📊 GitHub Stats
+### Let's build something
 
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=jowharr&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-</div>
+Have a product idea, a backend to build, or an interesting engineering problem? [Start a conversation →](mailto:mohdalijowhar@gmail.com)
 
-<br/>
-
-## 📈 Activity Graph
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=jowharr&theme=tokyo-night&hide_border=true" alt="Activity Graph"/>
-</div>
-
-<br/>
-
-## 🤝 Let's Connect
-
-I'm always interested in collaborating on innovative projects and discussing new technologies. Feel free to reach out!
-
-<p align="center">
-  <a href="https://linkedin.com/in/jowharr">
-    <img src="https://img.shields.io/badge/Let's_Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  <a href="mailto:mohdalijowhar@gmail.com">
-    <img src="https://img.shields.io/badge/Email_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-  </a>
-</p>
-
----
-
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=yourusername&color=blueviolet&style=for-the-badge&label=Profile+Views" alt="Profile Views"/>
-</div>
+<p align="center"><sub>Built with curiosity, code, and a lot of debugging.</sub></p>

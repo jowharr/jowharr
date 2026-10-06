@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="290" viewBox="0 0 960 290" role="img" aria-labelledby="title desc">
+  <title id="title">Jowhar | Full-Stack Developer</title>
+  <desc id="desc">Web applications, backend systems, and APIs. Based in Kerala, India.</desc>
+  <defs>
+    <radialGradient id="cyanGlow"><stop stop-color="#2d898d" stop-opacity=".2"/><stop offset="1" stop-color="#0d1117" stop-opacity="0"/></radialGradient>
+    <radialGradient id="violetGlow"><stop stop-color="#7956aa" stop-opacity=".2"/><stop offset="1" stop-color="#0d1117" stop-opacity="0"/></radialGradient>
+    <linearGradient id="edge"><stop stop-color="#72e5d6"/><stop offset=".5" stop-color="#b9a0ff"/><stop offset="1" stop-color="#263244"/></linearGradient>
+    <clipPath id="card"><rect x="1" y="1" width="958" height="288" rx="18"/></clipPath>
+  </defs>
+  <style>
+    .reveal { opacity: 1; }
+    @keyframes reveal { from { opacity: 0; } to { opacity: 1; } }
+    @media (prefers-reduced-motion: no-preference) {
+      .reveal { animation: reveal .22s ease-out both; }
+    }
+  </style>
+  <rect x=".5" y=".5" width="959" height="289" rx="18" fill="#0d1117" stroke="#263244"/>
+  <g clip-path="url(#card)"><ellipse cx="816.0" cy="70" rx="310" ry="220" fill="url(#violetGlow)"/><ellipse cx="60" cy="290" rx="380" ry="230" fill="url(#cyanGlow)"/><path d="M48 1 H912" stroke="url(#edge)" stroke-width="2"/><g class="reveal" style="animation-delay:0.08s"><text x="48" y="49" fill="#72e5d6" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="3">FULL-STACK DEVELOPER</text></g><g class="reveal" style="animation-delay:0.25s"><text x="45" y="129" fill="#e6edf3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" font-size="82" font-weight="700" letter-spacing="-4">Jowhar</text></g><g class="reveal" style="animation-delay:0.48s"><text x="48" y="171" fill="#e6edf3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" font-size="24" >From idea to working software.</text></g><g class="reveal" style="animation-delay:0.70s"><text x="48" y="204" fill="#91a3b7" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="16" >Web apps / Backend systems / APIs</text></g><g class="reveal" style="animation-delay:0.86s"><text x="48" y="256" fill="#91a3b7" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="11" letter-spacing="2">KERALA, INDIA</text></g><g class="reveal" style="animation-delay:0.95s"><text x="735" y="256" fill="#72e5d6" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="13" >@jowharr</text></g><g stroke="#72e5d6" fill="none" stroke-width="1" opacity=".14"><path d="M748 65 H862 V162 Q862 206 811 206 Q760 206 760 163"/><path d="M736 53 H850 V150 Q850 194 799 194 Q748 194 748 151"/><path d="M724 41 H838 V138 Q838 182 787 182 Q736 182 736 139"/></g></g>
+</svg>
