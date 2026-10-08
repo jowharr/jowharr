@@ -1,25 +1,25 @@
 <picture>
   <source media="(max-width: 600px)" srcset="./assets/hero-mobile.svg">
-  <img src="./assets/hero.svg" width="100%" alt="Jowhar — Full Stack Engineer. Web applications, backend systems, and product engineering. Kerala, India.">
+  <img src="./assets/hero.svg" width="100%" alt="" aria-label="Jowhar — Full Stack Engineer">
 </picture>
 
 <picture>
   <source media="(max-width: 600px)" srcset="./assets/terminal-mobile.svg">
-  <img src="./assets/terminal.svg" width="100%" alt="Animated ASCII portrait and terminal profile for Jowhar, a senior full-stack developer working remotely from Kerala, India. Web apps, ERP platforms, dashboards, mobile backends, and integrations. Contact: jowhar.dev@gmail.com.">
+  <img src="./assets/terminal.svg" width="100%" alt="" aria-label="Jowhar’s animated ASCII portrait and developer profile">
 </picture>
 
 <picture>
   <source media="(max-width: 600px)" srcset="./assets/toolkit-mobile.svg">
-  <img src="./assets/toolkit.svg" width="100%" alt="Tech stack: JavaScript, TypeScript, HTML, CSS, React, Next.js, Redux, Tailwind CSS, Bootstrap, Node.js, Express, REST APIs, JWT, API integrations, MongoDB, PostgreSQL, MariaDB, Redis, Mongoose, Prisma, Drizzle, Docker, NGINX, CI/CD, DNS, SSL, Git, Postman, VS Code, Vercel, Heroku, and GitHub.">
+  <img src="./assets/toolkit.svg" width="100%" alt="" aria-label="Tech stack — full tool list in the text version below">
 </picture>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=jowharr&amp;background=0D1117&amp;border=263244&amp;stroke=263244&amp;ring=72E5D6&amp;fire=B9A0FF&amp;currStreakNum=E6EDF3&amp;sideNums=E6EDF3&amp;currStreakLabel=72E5D6&amp;sideLabels=91A3B7&amp;dates=91A3B7&amp;border_radius=16&amp;disable_animations=true" width="495" alt="Jowhar's total GitHub contributions, current daily streak, and longest streak.">
+  <img src="https://streak-stats.demolab.com?user=jowharr&amp;background=0D1117&amp;border=263244&amp;stroke=263244&amp;ring=72E5D6&amp;fire=B9A0FF&amp;currStreakNum=E6EDF3&amp;sideNums=E6EDF3&amp;currStreakLabel=72E5D6&amp;sideLabels=91A3B7&amp;dates=91A3B7&amp;border_radius=16&amp;disable_animations=true" width="495" alt="" aria-label="Jowhar's total GitHub contributions, current daily streak, and longest streak.">
 </p>
 
 <picture>
   <source media="(max-width: 600px)" srcset="./assets/focus-mobile.svg">
-  <img src="./assets/focus.svg" width="100%" alt="Currently exploring: AI-Assisted Engineering, Scalable Frontend Architecture, Distributed Systems Visualization, Modern UI Engineering, Real-time Observability, and LLM Integrations &amp; Tooling.">
+  <img src="./assets/focus.svg" width="100%" alt="" aria-label="Currently exploring — topics in the text version below">
 </picture>
 
 <p align="center">
@@ -53,5 +53,5 @@ I'm **Jowhar**, a senior full-stack developer working remotely from **Kerala, In
 
 <picture>
   <source media="(max-width: 600px)" srcset="./assets/footer-mobile.svg">
-  <img src="./assets/footer.svg" width="100%" alt="Jowhar — built with curiosity.">
+  <img src="./assets/footer.svg" width="100%" alt="" aria-label="Jowhar — built with curiosity">
 </picture>

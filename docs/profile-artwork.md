@@ -33,6 +33,17 @@ mobile composition at viewport widths of 600px or less. Real contact links and
 the text version of the toolkit remain in Markdown because links inside an
 SVG used as an image are not interactive.
 
+The cards use an empty alt with a descriptive aria-label: browsers leave the
+loading area blank rather than flashing fallback paragraphs, while assistive
+technology still receives the image name. The expandable text version retains
+the complete profile, toolkit, and exploring topics. GitHub's Markdown renderer
+preserves these accessible labels. Keep contact-button alt labels so their links
+remain named even when images are unavailable.
+
+Keep responsive card heights automatic. GitHub's image styles do not reset a
+fixed HTML height when the width shrinks; hardcoded source or image heights
+introduce unwanted space on narrow screens.
+
 ## Content
 
 The toolkit combines the existing public README with the user's earlier
